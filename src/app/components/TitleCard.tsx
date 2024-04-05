@@ -1,4 +1,5 @@
-import { prata } from "../layout";
+import { prata } from "../page";
+
 
 type TitleCardProps = {
   title: string;

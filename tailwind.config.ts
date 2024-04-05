@@ -15,12 +15,14 @@ const config: Config = {
       },
       colors: {
         'bg-default': "var(--bg-default)",
+        'bg-primary': "var(--bg-primary)",
         'bg-sidebar': "var(--bg-sidebar)",
         'txt-hover': "var(--txt-hover)",
         'bg-shop-title': "var(--bg-shop-title)",
-        'bg-shop-price': "var(--bg-shop-price)",
         'bg-in-stock': "var(--bg-in-stock)",
         'btn-primary': "var(--btn-primary)",
+        'focus-primary': "var(--focus-primary)",
+        'bg-out-stock': "var(--bg-out-stock)",
       }
     },
   },

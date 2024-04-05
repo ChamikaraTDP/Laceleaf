@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Prata } from "next/font/google";
-import Sidebar from "./components/Sidbar";
+import { Inter } from "next/font/google";
+import Sidebar from "./components/sidebar/Sidbar";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-export const prata = Prata({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata: Metadata = {
   title: "Sujatha's Anthurium",
@@ -18,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} grid grid-cols-12`}>
+      <body className={`${inter.className} grid grid-cols-12 text-gray-800`}>
         <div className="col-span-2 h-screen overflow-auto">
           <Sidebar />
         </div>

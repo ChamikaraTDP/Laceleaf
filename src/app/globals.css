@@ -7,13 +7,14 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --bg-default: #FFF4F4;
+  --bg-primary: #F68F8F;
   --bg-sidebar: #FFFCFC;
   --focus-primary: #F68F8F;
   --txt-hover: #F68F8F;
   --btn-primary: #F68F8F;
-  --bg-shop-title: #D9D9D9;
-  --bg-shop-price: #E5BABA;
+  --bg-shop-title: #F68F8F71;
   --bg-in-stock: #F8EEBA;
+  --bg-out-stock: #D8D8D8;
 }
 
 /* @media (prefers-color-scheme: dark) {

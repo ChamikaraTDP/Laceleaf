@@ -1,6 +1,14 @@
 import Image from "next/image";
 import CustomCarousel from "./components/carousel/CustomCarousel";
 import Shop from "./components/shop/Shop";
+import AboutUs from "./components/about/AboutUs";
+import Faq from "./components/faq/Faq";
+import { Prata, Roboto } from "next/font/google";
+import ContactUs from "./components/contact/ContactUs";
+import Footer from "./components/footer/Footer";
+
+export const roboto = Roboto({ subsets: ["latin"], weight: ['400', '500'] });
+export const prata = Prata({ subsets: ["latin"], weight: ['400'] });
 
 const images = [
   {
@@ -97,6 +105,14 @@ export default function Home() {
       </CustomCarousel>
 
       <Shop />
+
+      <AboutUs />
+
+      <Faq />
+
+      <ContactUs />
+
+      <Footer />
     </main>
   );
 }
