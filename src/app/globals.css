@@ -6,9 +6,17 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --bg-default: #FFF4F4;
+  --bg-sidebar: #FFFCFC;
+  --focus-primary: #F68F8F;
+  --txt-hover: #F68F8F;
+  --btn-primary: #F68F8F;
+  --bg-shop-title: #D9D9D9;
+  --bg-shop-price: #E5BABA;
+  --bg-in-stock: #F8EEBA;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,4 +32,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

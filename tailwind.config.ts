@@ -13,8 +13,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'bg-default': "var(--bg-default)",
+        'bg-sidebar': "var(--bg-sidebar)",
+        'txt-hover': "var(--txt-hover)",
+        'bg-shop-title': "var(--bg-shop-title)",
+        'bg-shop-price': "var(--bg-shop-price)",
+        'bg-in-stock': "var(--bg-in-stock)",
+        'btn-primary': "var(--btn-primary)",
+      }
     },
   },
   plugins: [],
 }
-export default config
+export default config;
