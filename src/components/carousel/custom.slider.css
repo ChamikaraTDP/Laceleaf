@@ -1,3 +1,10 @@
+.slider_root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .container__slider {
   position: relative;
   width: 100%;
@@ -9,7 +16,20 @@
   flex-direction: row;
   flex-wrap: nowrap;
   background-color: black;
-  height: 100vh;
+  height: 100%;
+}
+
+.slider-with-thumbnail {
+  flex-basis: 75%;
+  height: 75%;
+}
+
+.container_thumbnail {
+  flex-basis: 25%;
+  background-color: var(--bg-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container__slider > button {

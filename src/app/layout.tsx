@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Sidebar from "./components/sidebar/Sidbar";
+import Sidebar from "../components/sidebar/Sidbar";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Sujatha's Anthurium",

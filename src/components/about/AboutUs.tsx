@@ -1,5 +1,5 @@
 import TitleCard from "../TitleCard";
-import { roboto } from "../../page";
+import { roboto } from "../../app/fonts";
 
 function AboutUs() {
   return (

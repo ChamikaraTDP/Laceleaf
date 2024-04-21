@@ -1,0 +1,86 @@
+{
+ "Bicolor-Rose": {
+  "id": "Bicolor-Rose",
+  "title": "Bicolor Rose",
+  "description": "",
+  "images": [
+   {
+    "title": "bicolor-rose-1",
+    "path": "/images/shop/Bicolor-Rose/anthurium-2.avif"
+   },
+   {
+    "title": "bicolor-rose-2",
+    "path": "/images/shop/Bicolor-Rose/anthurium-2.jpeg"
+   },
+   {
+    "title": "bicolor-rose-3",
+    "path": "/images/shop/Bicolor-Rose/anthurium-3.jpg"
+   }
+  ],
+  "shopImagePath": "/images/shop/Bicolor-Rose/anthurium-1.jpg",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 0
+   }
+  ],
+  "popular": false
+ },
+ "Pink-Champion": {
+  "id": "Pink-Champion",
+  "title": "Pink Champion",
+  "description": "some old description",
+  "images": [
+   {
+    "title": "pink-champion-1",
+    "path": "/images/shop/Pink-Champion/Anthurium-Painters-Palette.jpg"
+   },
+   {
+    "title": "pink-champion-2",
+    "path": "/images/shop/Pink-Champion/Best-Anthurium-Types-Feature.jpg"
+   },
+   {
+    "title": "pink-champion-3",
+    "path": "/images/shop/Pink-Champion/pink-blooming-anthurium-living-color-garden-center-1024x512.png"
+   },
+   {
+    "title": "pink-champion-4",
+    "path": "/images/shop/Pink-Champion/tJkWnWMT8GTcfPu6t7Kd7h.jpg"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Champion/anthurium-10.jpg",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 0
+   }
+  ],
+  "popular": false
+ },
+ "White-Champion": {
+  "id": "White-Champion",
+  "title": "White Champion",
+  "description": "some more desc",
+  "images": [
+   {
+    "title": "white-champion-1",
+    "path": "/images/shop/White-Champion/Anthurium2.webp"
+   },
+   {
+    "title": "white-champion-2",
+    "path": "/images/shop/White-Champion/Nature-Rabbit-Anthurium-White-Plant.jpg"
+   }
+  ],
+  "shopImagePath": "/images/shop/White-Champion/anthurium-3.jpg",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 0
+   }
+  ],
+  "popular": false
+ }
+}

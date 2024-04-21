@@ -1,0 +1,108 @@
+{
+  "Pink-Champion": {
+    "title": "Pink Champion",
+    "description": "General pink color laceleaf",
+    "images": [
+      {
+        "title": "pink-champion-1",
+        "path": "/images/slider/anthurium-1.jpg"
+      },
+      {
+        "title": "pink-champion-2",
+        "path": "/images/slider/anthurium-2.jpeg"
+      },
+      {
+        "title": "pink-champion-3",
+        "path": "/images/slider/anthurium-2.avif"
+      }
+    ],
+    "prices": [
+      {
+        "size": "4 In",
+        "age": "6m",
+        "price": 150
+      },
+      {
+        "size": "6 In",
+        "age": "1y",
+        "price": 350
+      },
+      {
+        "size": "12 In",
+        "age": "2y",
+        "price": 550
+      }    
+    ]
+  },
+  "White-Champion": {
+    "title": "White Champion",
+    "description": "General white color laceleaf",
+    "images": [
+      
+      {
+        "title": "white-champion-2",
+        "path": "/images/slider/anthurium-2.jpeg"
+      },
+      {
+        "title": "white-champion-3",
+        "path": "/images/slider/anthurium-2.avif"
+      },
+      {
+        "title": "white-champion-4",
+        "path": "/images/slider/anthurium-3.jpg"
+      }
+    ],
+    "prices": [
+      {
+        "size": "4 In",
+        "age": "6m",
+        "price": 150
+      },
+      {
+        "size": "6 In",
+        "age": "1y",
+        "price": 350
+      },
+      {
+        "size": "12 In",
+        "age": "2y",
+        "price": 550
+      }    
+    ]
+  },
+  "Bicolor-Rose": {
+    "title": "Bicolor Rose",
+    "description": "Rose and green color laceleaf",
+    "images": [
+      {
+        "title": "bicolor-rose-1",
+        "path": "/images/slider/anthurium-1.jpg"
+      },
+      {
+        "title": "bicolor-rose-3",
+        "path": "/images/slider/anthurium-2.avif"
+      },
+      {
+        "title": "bicolor-rose-4",
+        "path": "/images/slider/anthurium-3.jpg"
+      }
+    ],
+    "prices": [
+      {
+        "size": "4 In",
+        "age": "6m",
+        "price": 150
+      },
+      {
+        "size": "6 In",
+        "age": "1y",
+        "price": 350
+      },
+      {
+        "size": "12 In",
+        "age": "2y",
+        "price": 550
+      }    
+    ]
+  }
+}
