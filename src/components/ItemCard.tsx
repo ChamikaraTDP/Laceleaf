@@ -20,6 +20,8 @@ function ItemCard({ item }: ItemCardProps) {
           src={item.shopImagePath}
           fill={true}
           style={{ objectFit: "cover" }}
+          sizes="(max-width: 768px) 16px, (max-width: 1200px) 1024px, 512px"
+          quality={40}
         />
       </div>
 

@@ -1,12 +1,14 @@
 import Image from "next/image";
+import homeData from '../../data/home-data.json';
+
 
 function Footer() {
   return (
     <div className="py-8 bg-bg-primary min-h-[200px] flex justify-around items-center">
       <div>
-        <div className="mb-4">071 1788728</div>
-        <div className="mb-4">sujathasanthurium@gmail.com</div>
-        <div className="mb-4">No. 41, Remunagoda, Kalutara</div>
+        <div className="mb-4">{homeData.telNo}</div>
+        <div className="mb-4">{homeData.email}</div>
+        <div className="mb-4">{homeData.address}</div>
       </div>
       <div>
         <Image

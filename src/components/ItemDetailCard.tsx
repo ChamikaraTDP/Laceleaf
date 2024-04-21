@@ -1,6 +1,6 @@
 import Image from "next/image";
-import ImageCarousel from "../../../components/carousel/ImageCarousel";
-import { prata, roboto } from "../../fonts";
+import ImageCarousel from "./carousel/ImageCarousel";
+import { prata, roboto } from "../app/fonts";
 import Link from "next/link";
 
 type ItemDetailCardProps = {

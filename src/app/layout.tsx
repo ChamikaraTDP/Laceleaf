@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Sidebar from "../components/sidebar/Sidbar";
+import Sidebar from "../components/Sidbar";
 import "./globals.css";
 import { inter } from "./fonts";
 

@@ -1,4 +1,4 @@
-import ItemDetailCard from "./ItemDetailCard";
+import ItemDetailCard from "../../../components/ItemDetailCard";
 import items from "../../../data/item-metadata.json";
 
 export default function ItemDetailView({

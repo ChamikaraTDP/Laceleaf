@@ -4,6 +4,7 @@ import Image from "next/image";
 import TitleCard from "../TitleCard";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
+import homeData from '../../data/home-data.json';
 
 function ContactUs() {
   const SignupSchema = Yup.object().shape({
@@ -39,14 +40,11 @@ function ContactUs() {
       </div>
 
       <div className="col-span-3">
-        <TitleCard title="Contact Us" subTitle="Ask it out" />
+        <TitleCard title={homeData.contactUsTitle} subTitle={homeData.contactUsSubTitle} />
 
         <div className="pl-1">
           <div className="pt-6 pb-4">
-            Have something in mind? Wedding, Workshop, special project? We can
-            help shine it.
-            <br />
-            Please contact us by fill in the fields below.
+            {homeData.contactUsDescripton}
           </div>
 
           <div className="py-5 text-xl">Drop us a message</div>

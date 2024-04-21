@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import homeData from '../data/home-data.json';
 
-const titles = ["Flowers", "Plants", "Pots", "Materials"];
-const subTitles = ["Search", "Contact Us", "FAQs", "About Us"];
+const titles = homeData.categories;
+const subTitles = [homeData.shopTitle, homeData.aboutUsTitle, homeData.faqTitle, homeData.contactUsTitle];
 
 export default function Sidebar() {
   return (
@@ -77,7 +78,7 @@ export default function Sidebar() {
                 height={30}
                 className="pr-2 pb-2"
               />
-              <h2>{`071 1788728`}</h2>
+              <h2>{homeData.telNo}</h2>
             </div>
 
             <div>
@@ -92,7 +93,7 @@ export default function Sidebar() {
                   height={30}
                   className="pr-2"
                 />
-                sujathasanthurium@gmail.com
+                {homeData.email}
               </a>
             </div>
           </div>

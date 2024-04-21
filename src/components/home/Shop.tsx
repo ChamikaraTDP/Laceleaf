@@ -2,6 +2,8 @@ import TitleCard from "../TitleCard";
 import ItemCard from "../ItemCard";
 import items from '../../data/item-metadata.json';
 import Link from "next/link";
+import homeData from '../../data/home-data.json';
+
 
 const itemsArr = Object.values(items).filter((item) => item.popular);
 
@@ -9,7 +11,7 @@ function Shop() {
   return (
     <div className="bg-bg-default min-h-screen py-20 px-20">
       <div className="flex justify-between">
-        <TitleCard title="Flowers" subTitle="Best In Town" />
+        <TitleCard title={homeData.shopTitle} subTitle={homeData.shopSubTitle} />
         
         <div>
           <Link href="/shop" className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200">View All</Link>
