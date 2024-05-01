@@ -1,0 +1,36 @@
+{
+  "sliderImages": [
+    {
+      "title": "Anthurium",
+      "subTitle": "Flowers for life",
+      "path": "/images/slider/anthurium-1.jpg",
+      "position": "top-right"
+    },
+    {
+      "title": "Garden",
+      "subTitle": "Make it yours",
+      "path": "/images/slider/anthurium-2.jpeg",
+      "position": "top-left"
+    },
+    {
+      "title": "Plants",
+      "subTitle": "Bloom with expert care",
+      "path": "/images/slider/anthurium-3.jpg",
+      "position": "bottom-right"
+    }
+  ],
+  "shopTitle": "Janappriya",
+  "shopSubTitle": "Hodama De",
+  "aboutUsTitle": "About Us",
+  "aboutUsSubTitle": "Get to know us",
+  "aboutUsDescription": "We at Sujatha's Anthurium have been practicing and teaching agriculture for more than 30 years and expertise in flowering plants, specially in Anthurium. We really enjoy caring for the plants and always thrive to keep them healthy throughout the year. We also encourage people to keep their plants in good shape by sharing our knowledge and expertise with them. So, join us and make your garden colorful with our Anthuriums.",
+  "contactUsTitle": "Contact Us",
+  "contactUsSubTitle": "Ask it out",
+  "contactUsDescripton": "Have something in mind? Wedding, Workshop, special project? We can help shine it. Please contact us by fill in the fields below.",
+  "faqTitle": "FAQs",
+  "faqSubTitle": "Got a question?",
+  "telNo": "071 9939729",
+  "email": "sujathasanthurium@gmail.com",
+  "address": "No. 41, Remunagoda, Kalutara",
+  "categories": ["Plants", "Flowers"]
+}

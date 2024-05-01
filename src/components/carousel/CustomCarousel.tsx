@@ -92,7 +92,7 @@ function CustomCarousel({
 
         {showLinkDots && (
           <div className="container__slider__links">
-            {children.map((item: any, index: number) => {
+            {children.map((_item: any, index: number) => {
               return (
                 <button
                   key={index}

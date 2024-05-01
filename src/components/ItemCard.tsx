@@ -1,19 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Locale, ShopItem } from "../types/common";
 
 type ItemCardProps = {
-  item: {
-    shopImagePath: string;
-    title: string;
-    shopPrice: number;
-    isInStock: boolean;
-    id: string;
-  };
+  item: ShopItem;
+  lang: Locale
 };
 
-function ItemCard({ item }: ItemCardProps) {
+function ItemCard({ item, lang  }: ItemCardProps) {
   return (
-    <Link href={`/item/${item.id}`} className="relative hover:shadow-md hover:shadow-red-200 cursor-pointer">
+    <Link href={`/${lang}/item/${item.id}`} className="relative hover:shadow-md hover:shadow-red-200 cursor-pointer">
       <div className="relative w-[200px] h-[200px]">
         <Image
           alt="item image"

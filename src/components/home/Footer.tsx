@@ -1,8 +1,11 @@
 import Image from "next/image";
-import homeData from '../../data/home-data.json';
 
+type FooterProps = {
+  lang?: string;
+  homeData: any;
+}
 
-function Footer() {
+function Footer({ homeData }: FooterProps) {
   return (
     <div className="py-8 bg-bg-primary min-h-[200px] flex justify-around items-center">
       <div>

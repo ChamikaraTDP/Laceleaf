@@ -4,9 +4,14 @@ import Image from "next/image";
 import TitleCard from "../TitleCard";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import homeData from '../../data/home-data.json';
+import { saveUserMessage } from '../../actions/responses';
 
-function ContactUs() {
+type ContactUsProps = {
+  lang?: string;
+  homeData: any;
+}
+
+export default function ContactUs({ homeData }: ContactUsProps) {
   const SignupSchema = Yup.object().shape({
     name: Yup.string()
       .min(2, "Too Short!")
@@ -58,7 +63,9 @@ function ContactUs() {
             }}
             validationSchema={SignupSchema}
             onSubmit={(values) => {
-              console.log(values);
+              saveUserMessage(values).then(() => {
+                alert('Message recorded');
+              });
             }}
           >
             {({
@@ -67,7 +74,6 @@ function ContactUs() {
               handleChange,
               errors,
               touched,
-              isSubmitting,
             }) => (
               <Form>
                 <div className="grid grid-cols-2 gap-5">
@@ -133,7 +139,7 @@ function ContactUs() {
                   </div>
 
                   <div className="col-start-2 col-end-3 flex justify-end">
-                    <button className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200" type="submit" disabled={isSubmitting}>
+                    <button className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200" type="submit">
                       Submit
                     </button>
                   </div>
@@ -146,5 +152,3 @@ function ContactUs() {
     </div>
   );
 }
-
-export default ContactUs;

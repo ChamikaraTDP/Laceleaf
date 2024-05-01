@@ -1,9 +1,9 @@
 import Image from "next/image";
 import CustomCarousel from "./CustomCarousel";
-
+import { ItemImage } from "../../types/common";
 
 type ImageCarouselProps = {
-  images: { title: string; path: string }[];
+  images: ItemImage[];
   autoSlide: boolean;
   showLinkDots: boolean;
   showThumbnail: boolean;

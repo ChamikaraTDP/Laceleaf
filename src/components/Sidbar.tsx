@@ -1,17 +1,37 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import homeData from '../data/home-data.json';
+import { useRouter, useSearchParams } from "next/navigation";
+import debounce from "lodash.debounce";
 
-const titles = homeData.categories;
-const subTitles = [homeData.shopTitle, homeData.aboutUsTitle, homeData.faqTitle, homeData.contactUsTitle];
+type SidbarProps = {
+  lang: string;
+  homeData: any;
+}
 
-export default function Sidebar() {
+export default function Sidebar({ lang, homeData }: SidbarProps) {
+  const { replace } = useRouter();
+  const searchParams = useSearchParams();
+
+  const handleSearch = debounce((term: string) => {
+    replace(`/${lang}/shop?query=${term}`);
+  }, 350);
+
+  const titles = homeData.categories;
+  const subTitles = [
+    homeData.shopTitle,
+    homeData.aboutUsTitle,
+    homeData.faqTitle,
+    homeData.contactUsTitle,
+  ];
+
   return (
     <div className="px-10 h-screen w-full overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200">
       <div className="pt-10 pb-5">
         {/* <h1 className="text-slate-700 text-3xl">Sujatha&apos;s Anthurium</h1> */}
 
-        <Link href={"/"} className="cursor-pointer">
+        <Link href={`/${lang}`} className="cursor-pointer">
           <Image
             alt="Sujathas-Anthurium Title Image"
             src={"/Sujathas-Anthurium.png"}
@@ -27,6 +47,10 @@ export default function Sidebar() {
             className="outline-none bg-transparent w-16 grow basis-16"
             type="text"
             placeholder="Search"
+            onChange={(evt) => {
+              handleSearch(evt.target.value);
+            }}
+            defaultValue={searchParams.get("query")?.toString() || ""}
           />
           <Image
             src="/icons/search.svg"
@@ -39,12 +63,10 @@ export default function Sidebar() {
 
       <div className="flex flex-col grow justify-between">
         <div className="mt-7">
-          {titles.map((ttl) => {
+          {titles.map((ttl: string) => {
             return (
-              <Link key={ttl} href={"/shop"} className="cursor-pointer">
-                <h2
-                  className="text-black font-light text-2xl mb-6 uppercase hover:text-txt-hover"
-                >
+              <Link key={ttl} href={`/${lang}/shop#${ttl}`} className="cursor-pointer">
+                <h2 className="text-black font-light text-2xl mb-6 uppercase hover:text-txt-hover">
                   {ttl}
                 </h2>
               </Link>
@@ -56,15 +78,14 @@ export default function Sidebar() {
           <div className="basis-32 shrink-1">
             {subTitles.map((ttl) => {
               return (
-              <Link key={ttl} href={`/#${ttl}`} className="cursor-pointer">
-
-                <h2
-                  key={ttl}
-                  className="text-slate-600 font-semibold text-base mb-3 hover:text-txt-hover"
-                >
-                  {ttl}
-                </h2>
-              </Link>
+                <Link key={ttl} href={`/${lang}/#${ttl}`} className="cursor-pointer">
+                  <h2
+                    key={ttl}
+                    className="text-slate-600 font-semibold text-base mb-3 hover:text-txt-hover"
+                  >
+                    {ttl}
+                  </h2>
+                </Link>
               );
             })}
           </div>

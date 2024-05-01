@@ -2,21 +2,20 @@ import Image from "next/image";
 import ImageCarousel from "./carousel/ImageCarousel";
 import { prata, roboto } from "../app/fonts";
 import Link from "next/link";
+import { Locale, ShopItem } from "../types/common";
 
 type ItemDetailCardProps = {
-  item: {
-    images: any[];
-    title: string;
-    description: string;
-  };
+  item: ShopItem;
   nextItemKey: string;
   previousItemKey: string;
+  lang: Locale,
 };
 
 export default function ItemDetailCard({
   item,
   nextItemKey,
   previousItemKey,
+  lang,
 }: ItemDetailCardProps) {
   return (
     <div className="min-h-screen w-full flex">
@@ -33,7 +32,7 @@ export default function ItemDetailCard({
         <div className="flex bg-bg-default justify-evenly py-2">
           <Link
             className="rounded-full flex justify-center items-center bg-white w-10 h-10 hover:bg-focus-primary"
-            href={`/item/${previousItemKey}`}
+            href={`/${lang}/item/${previousItemKey}`}
           >
             <Image
               src="/icons/previous-black.svg"
@@ -46,7 +45,7 @@ export default function ItemDetailCard({
 
           <Link
             className="rounded-full flex justify-center items-center bg-white w-10 h-10 hover:bg-focus-primary"
-            href={`/item/${nextItemKey}`}
+            href={`/${lang}/item/${nextItemKey}`}
           >
             <Image
               src="/icons/next-black.svg"

@@ -27,7 +27,8 @@
         "price": 0
       }
     ],
-    "popular": true
+    "popular": true,
+    "category": "Plants"
   },
   "Pink-Champion": {
     "id": "Pink-Champion",
@@ -61,7 +62,8 @@
         "price": 0
       }
     ],
-    "popular": true
+    "popular": true,
+    "category": "Plants"
   },
   "White-Champion": {
     "id": "White-Champion",
@@ -87,6 +89,7 @@
         "price": 0
       }
     ],
-    "popular": true
+    "popular": true,
+    "category": "Flowers"
   }
 }
