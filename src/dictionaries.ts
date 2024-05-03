@@ -19,3 +19,13 @@ const homeData = {
 export const getHomeData = async (locale: Locale) => {
   return homeData[locale]();
 };
+
+const faq = {
+  [Locale.en]: () => import('./data/faq.en.json').then((module) => module.default),
+  [Locale.si]: () => import('./data/faq.si.json').then((module) => module.default),
+  [Locale.ta]: () => import('./data/faq.ta.json').then((module) => module.default),
+}
+
+export const getFaq = (locale: Locale) => {
+  return faq[locale]();
+};

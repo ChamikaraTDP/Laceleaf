@@ -1,3 +1,13 @@
 {
-  "viewAll": "View All"
+  "viewAll": "View All",
+  "name": "Name",
+  "address": "Address",
+  "email": "Email",
+  "phoneNumber": "Phone Number",
+  "yourMessage": "Your Message",
+  "required": "Required",
+  "submit": "Submit",
+  "popular": "Popular",
+  "search": "Search",
+  "phoneErrorMessage": "Please enter a valid phone number"
 }

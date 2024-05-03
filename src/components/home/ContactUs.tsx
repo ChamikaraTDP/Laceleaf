@@ -1,33 +1,40 @@
 "use client";
 
 import Image from "next/image";
-import TitleCard from "../TitleCard";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import { saveUserMessage } from '../../actions/responses';
+import { saveUserMessage } from "../../actions/responses";
+import { Locale } from "../../types/common";
 
 type ContactUsProps = {
-  lang?: string;
+  lang: Locale;
   homeData: any;
-}
+  dictionary: any;
+  tertiaryFont: any;
+};
 
-export default function ContactUs({ homeData }: ContactUsProps) {
+export default function ContactUs({
+  homeData,
+  dictionary,
+  lang,
+  tertiaryFont,
+}: ContactUsProps) {
   const SignupSchema = Yup.object().shape({
     name: Yup.string()
       .min(2, "Too Short!")
       .max(200, "Too Long!")
-      .required("Required"),
+      .required(dictionary.required),
 
     phone: Yup.string()
       .trim()
-      .matches(new RegExp("^[0-9]{10}$"), "Please enter a valid phone number"),
+      .matches(new RegExp("^[0-9]{10}$"), dictionary.phoneErrorMessage),
 
-    email: Yup.string().email("Invalid email").required("Required"),
+    email: Yup.string().email("Invalid email").required(dictionary.required),
 
     message: Yup.string()
       .min(2, "Too Short!")
       .max(2000, "Too Long!")
-      .required("Required"),
+      .required(dictionary.required),
   });
 
   return (
@@ -45,14 +52,34 @@ export default function ContactUs({ homeData }: ContactUsProps) {
       </div>
 
       <div className="col-span-3">
-        <TitleCard title={homeData.contactUsTitle} subTitle={homeData.contactUsSubTitle} />
+        {/* <TitleCard title={homeData.contactUsTitle} subTitle={homeData.contactUsSubTitle} lang={lang}/> */}
+
+        <div className="flex">
+          <div
+            id={homeData.contactUsTitle}
+            className={`${tertiaryFont.className} text-4xl`}
+          >
+            {homeData.contactUsTitle}
+          </div>
+          <div className={`pl-2 text-xl font-extralight italic translate-y-4`}>
+            {homeData.contactUsSubTitle}
+          </div>
+        </div>
 
         <div className="pl-1">
-          <div className="pt-6 pb-4">
+          <div
+            className={`pt-6 pb-4 ${
+              lang === Locale.en ? "text-base" : "text-xl"
+            }`}
+          >
             {homeData.contactUsDescripton}
           </div>
 
-          <div className="py-5 text-xl">Drop us a message</div>
+          <div
+            className={`py-5 ${lang === Locale.en ? "text-xl" : "text-2xl"}`}
+          >
+            {homeData.contactUsFormTitle}
+          </div>
 
           <Formik
             initialValues={{
@@ -64,24 +91,18 @@ export default function ContactUs({ homeData }: ContactUsProps) {
             validationSchema={SignupSchema}
             onSubmit={(values) => {
               saveUserMessage(values).then(() => {
-                alert('Message recorded');
+                alert("Your message has been recorded");
               });
             }}
           >
-            {({
-              values,
-              handleBlur,
-              handleChange,
-              errors,
-              touched,
-            }) => (
+            {({ values, handleBlur, handleChange, errors, touched }) => (
               <Form>
                 <div className="grid grid-cols-2 gap-5">
                   <div>
                     <Field
                       className="p-4 bg-bg-default w-full outline-none rounded border border-transparent focus:border-focus-primary "
                       name="name"
-                      placeholder="Name"
+                      placeholder={dictionary.name}
                     />
 
                     {errors.name && touched.name ? (
@@ -96,7 +117,7 @@ export default function ContactUs({ homeData }: ContactUsProps) {
                       className="p-4 bg-bg-default w-full outline-none rounded border border-transparent focus:border-focus-primary "
                       name="email"
                       type="email"
-                      placeholder="Email"
+                      placeholder={dictionary.email}
                     />
 
                     {errors.email && touched.email ? (
@@ -110,7 +131,7 @@ export default function ContactUs({ homeData }: ContactUsProps) {
                     <Field
                       className="p-4 bg-bg-default w-full outline-none rounded border border-transparent focus:border-focus-primary "
                       name="phone"
-                      placeholder="Phone Number"
+                      placeholder={dictionary.phoneNumber}
                     />
 
                     {errors.phone && touched.phone ? (
@@ -127,7 +148,7 @@ export default function ContactUs({ homeData }: ContactUsProps) {
                       value={values.message}
                       className="p-4 bg-bg-default w-full outline-none rounded border border-transparent focus:border-focus-primary "
                       name="message"
-                      placeholder="Your message"
+                      placeholder={dictionary.yourMessage}
                       rows={3}
                     />
 
@@ -139,8 +160,11 @@ export default function ContactUs({ homeData }: ContactUsProps) {
                   </div>
 
                   <div className="col-start-2 col-end-3 flex justify-end">
-                    <button className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200" type="submit">
-                      Submit
+                    <button
+                      className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200"
+                      type="submit"
+                    >
+                      {dictionary.submit}
                     </button>
                   </div>
                 </div>

@@ -1,3 +1,13 @@
 {
-  "viewAll": "View All"
+  "viewAll": "සියල්ල නරඹන්න",
+  "name": "නම",
+  "address": "ලිපිනය",
+  "email": "විද්‍යුත් ලිපිනය",
+  "phoneNumber": "දුරකථන අංකය",
+  "yourMessage": "ඔබේ පණිවිඩය",
+  "required": "අත්‍යවශයි",
+  "submit": "යවන්න",
+  "popular": "ජනප්‍රිය අයිතම",
+  "search": "සොයන්න",
+  "phoneErrorMessage": "කරුණාකර නිවැරදි දුරකථන අංකයක් ලබා දෙන්න"
 }

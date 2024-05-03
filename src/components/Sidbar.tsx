@@ -4,13 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import debounce from "lodash.debounce";
+import { Locale } from "../types/common";
 
 type SidbarProps = {
   lang: string;
   homeData: any;
+  dictionary: any;
 }
 
-export default function Sidebar({ lang, homeData }: SidbarProps) {
+export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
   const { replace } = useRouter();
   const searchParams = useSearchParams();
 
@@ -46,7 +48,7 @@ export default function Sidebar({ lang, homeData }: SidbarProps) {
           <input
             className="outline-none bg-transparent w-16 grow basis-16"
             type="text"
-            placeholder="Search"
+            placeholder={dictionary.search}
             onChange={(evt) => {
               handleSearch(evt.target.value);
             }}
@@ -66,7 +68,7 @@ export default function Sidebar({ lang, homeData }: SidbarProps) {
           {titles.map((ttl: string) => {
             return (
               <Link key={ttl} href={`/${lang}/shop#${ttl}`} className="cursor-pointer">
-                <h2 className="text-black font-light text-2xl mb-6 uppercase hover:text-txt-hover">
+                <h2 className={`text-black font-light ${lang === Locale.en ? 'text-2xl' : 'text-3xl'} mb-6 uppercase hover:text-txt-hover`}>
                   {ttl}
                 </h2>
               </Link>
@@ -81,7 +83,7 @@ export default function Sidebar({ lang, homeData }: SidbarProps) {
                 <Link key={ttl} href={`/${lang}/#${ttl}`} className="cursor-pointer">
                   <h2
                     key={ttl}
-                    className="text-slate-600 font-semibold text-base mb-3 hover:text-txt-hover"
+                    className={`text-slate-600 font-semibold ${lang === Locale.en ? 'text-base' : 'text-xl'} mb-3 hover:text-txt-hover`}
                   >
                     {ttl}
                   </h2>
@@ -105,7 +107,7 @@ export default function Sidebar({ lang, homeData }: SidbarProps) {
             <div>
               <a
                 className="flex hover:text-txt-hover"
-                href="mailto:pramudithachamikara@gmail.com"
+                href={`mailto:${homeData.email}`}
               >
                 <Image
                   src="/icons/mail.svg"

@@ -6,20 +6,19 @@ import TitleCard from "../../components/TitleCard";
 import Link from "next/link";
 import items from "../../data/item-metadata.json";
 import ItemCard from "../../components/ItemCard";
-import { roboto } from "../fonts";
-import questions from "../../data/faq.json";
 import ExpandableDesc from "../../components/ExpandableDesc";
-import { getHomeData } from "../../dictionaries";
+import { getDictionary, getFaq, getHomeData } from "../../dictionaries";
 import { Locale } from "../../types/common";
+import { getSecondaryFont, getTertiaryFont } from "../fonts";
 
 const itemsArr = Object.values(items).filter((item) => item.popular);
 
-export default async function Home({
-  params,
-}: {
-  params: { lang: Locale }
-}) {
+export default async function Home({ params }: { params: { lang: Locale } }) {
   const homeData = await getHomeData(params.lang);
+  const dictionary = await getDictionary(params.lang);
+  const questions = await getFaq(params.lang);
+  const secondaryFont = getSecondaryFont(params.lang);
+  const tertiaryFont = getTertiaryFont(params.lang);
 
   return (
     <main className="bg-bg-default h-screen">
@@ -38,6 +37,7 @@ export default async function Home({
           <TitleCard
             title={homeData.shopTitle}
             subTitle={homeData.shopSubTitle}
+            lang={params.lang}
           />
 
           <div>
@@ -45,7 +45,7 @@ export default async function Home({
               href={`/${params.lang}/shop`}
               className="py-2 px-8 bg-btn-primary rounded hover:shadow-lg hover:shadow-red-200"
             >
-              View All
+              {dictionary.viewAll}
             </Link>
           </div>
         </div>
@@ -62,10 +62,11 @@ export default async function Home({
         <TitleCard
           title={homeData.aboutUsTitle}
           subTitle={homeData.aboutUsSubTitle}
+          lang={params.lang}
         />
 
         <div
-          className={`${roboto.className} leading-8 w-1/2 m-auto pt-10 text-lg text-center text-slate-700`}
+          className={`${secondaryFont.className} leading-8 w-1/2 m-auto pt-10 text-lg text-center text-slate-700`}
         >
           {homeData.aboutUsDescription}
         </div>
@@ -73,9 +74,13 @@ export default async function Home({
 
       {/* faq */}
       <div className="py-24 px-20 bg-bg-default">
-        <TitleCard title="FAQs" subTitle="Got a question?" />
+        <TitleCard
+          title={homeData.faqTitle}
+          subTitle={homeData.faqSubTitle}
+          lang={params.lang}
+        />
 
-        <div className={`${roboto.className} w-3/5 m-auto pt-10`}>
+        <div className={`${secondaryFont.className} w-3/5 m-auto pt-10`}>
           {questions.map((qt) => (
             <ExpandableDesc
               key={qt.title}
@@ -87,7 +92,7 @@ export default async function Home({
       </div>
 
       {/* contact us */}
-      <ContactUs homeData={homeData} />
+      <ContactUs homeData={homeData} dictionary={dictionary} lang={params.lang} tertiaryFont={tertiaryFont} />
 
       {/* footer */}
       <Footer homeData={homeData} />

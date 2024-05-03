@@ -12,7 +12,7 @@ function ItemGroupCard({ title, items, lang }: ItemGroupCardProps) {
   return (
     <div className="py-10">
       <div className="flex justify-between">
-        <TitleCard title={title} subTitle="" />
+        <TitleCard title={title} subTitle="" lang={lang} />
       </div>
 
       <div className="flex flex-wrap mt-20 gap-x-8 gap-y-20">
