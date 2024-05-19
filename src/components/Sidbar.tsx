@@ -29,8 +29,13 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
   ];
 
   return (
-    <div className="px-10 h-screen w-full overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200">
-      <div className="pt-10 pb-5">
+    <div className="pl-10 h-screen w-full overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200">
+      <div className="text-sm flex justify-end gap-4 pt-2 pr-4">
+        <Link href={'/en'}>En</Link>
+        <Link href={'/si'}>සිං</Link>
+      </div>
+
+      <div className="pt-3 pb-5">
         {/* <h1 className="text-slate-700 text-3xl">Sujatha&apos;s Anthurium</h1> */}
 
         <Link href={`/${lang}`} className="cursor-pointer">
@@ -43,7 +48,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         </Link>
       </div>
 
-      <div className="py-2">
+      <div className="py-2 pr-10">
         <div className="flex border-b border-solid border-slate-300 justify-between p-1">
           <input
             className="outline-none bg-transparent w-16 grow basis-16"

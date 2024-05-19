@@ -10,6 +10,7 @@ type CustomCarouselProps = {
   autoSlide?: boolean;
   showLinkDots?: boolean;
   showThumbnail?: boolean;
+  thumbnails?: any[];
 };
 
 function CustomCarousel({
@@ -17,6 +18,7 @@ function CustomCarousel({
   autoSlide = true,
   showLinkDots = true,
   showThumbnail = false,
+  thumbnails,
 }: CustomCarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [timeID, setTimeID] = useState<NodeJS.Timeout | null>(null);
@@ -144,25 +146,27 @@ function CustomCarousel({
         </button>
       </div>
 
-      {showThumbnail && (
+      {showThumbnail && thumbnails && (
         <div className="container_thumbnail">
-          <div className="flex gap-4">
-            {children.map((item: any, index: number) => {
-              return (
-                <div
-                  className={`w-[128px] h-[128px] relative overflow-hidden border-4 cursor-pointer ${
-                    activeIndex === index ? "border-focus-primary" : "border-transparent"
-                  }`}
-                  key={index}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setActiveIndex(index);
-                  }}
-                >
-                  {item}
-                </div>
-              );
-            })}
+          <div className="px-4 w-full text-nowrap text-center overflow-auto ">
+              {thumbnails.map((item: any, index: number) => {
+                return (
+                  <div
+                    className={`inline-block  w-[128px] h-[128px] relative overflow-hidden border-4 cursor-pointer mr-4 ${
+                      activeIndex === index
+                        ? "border-focus-primary"
+                        : "border-transparent"
+                    }`}
+                    key={index}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveIndex(index);
+                    }}
+                  >
+                    {item}
+                  </div>
+                );
+              })}
           </div>
         </div>
       )}

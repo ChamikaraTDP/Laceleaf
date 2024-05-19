@@ -20,6 +20,19 @@ export default function ImageCarousel({
       showThumbnail={showThumbnail}
       autoSlide={autoSlide}
       showLinkDots={showLinkDots}
+      thumbnails={images.map((img) => {
+        return (
+          <Image
+            key={img.title}
+            src={img.path}
+            alt={img.title}
+            fill={true}
+            style={{ objectFit: "cover" }}
+            quality={40}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 256px, 128px"
+          />
+        );
+      })}
     >
       {images.map((img) => (
         <div key={img.path} className="h-full w-full relative">
@@ -27,7 +40,7 @@ export default function ImageCarousel({
             src={img.path}
             alt={img.title}
             fill={true}
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
       ))}

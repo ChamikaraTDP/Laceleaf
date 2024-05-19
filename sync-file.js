@@ -96,6 +96,9 @@ for (let folderPath of folderNames) {
         },
       ],
       popular: false,
+      shopPrice: 0,
+      isInStock: true,
+      category: 'Flowers',
     };
   }
 

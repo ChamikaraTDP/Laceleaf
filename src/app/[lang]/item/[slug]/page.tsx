@@ -1,12 +1,15 @@
 import ItemDetailCard from "../../../../components/ItemDetailCard";
 import items from "../../../../data/item-metadata.json";
+import { getHomeData } from "../../../../dictionaries";
 import { Locale } from "../../../../types/common";
 
-export default function ItemDetailView({
+export default async function ItemDetailView({
   params,
 }: {
   params: { slug: keyof typeof items, lang: Locale };
 }) {
+  const homeData = await getHomeData(params.lang);
+
   const item = items[params.slug];
 
   if (!item) {
@@ -22,5 +25,5 @@ export default function ItemDetailView({
   const nextKey = (slugIndex + 1) % itemKeys.length;
   const prevKey = (slugIndex - 1 + itemKeys.length) % itemKeys.length;
 
-  return <ItemDetailCard lang={params.lang} item={item} nextItemKey={itemKeys[nextKey]} previousItemKey={itemKeys[prevKey]} />;
+  return <ItemDetailCard homeData={homeData} lang={params.lang} item={item} nextItemKey={itemKeys[nextKey]} previousItemKey={itemKeys[prevKey]} />;
 }

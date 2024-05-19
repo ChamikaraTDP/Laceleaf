@@ -1,95 +1,489 @@
 {
-  "Bicolor-Rose": {
-    "id": "Bicolor-Rose",
-    "title": "Bicolor Rose",
-    "description": "Rose and green color laceleaf",
-    "images": [
-      {
-        "title": "bicolor-rose-1",
-        "path": "/images/shop/Bicolor-Rose/anthurium-2.avif"
-      },
-      {
-        "title": "bicolor-rose-2",
-        "path": "/images/shop/Bicolor-Rose/anthurium-2.jpeg"
-      },
-      {
-        "title": "bicolor-rose-3",
-        "path": "/images/shop/Bicolor-Rose/anthurium-3.jpg"
-      }
-    ],
-    "shopImagePath": "/images/shop/Bicolor-Rose/anthurium-1.jpg",
-    "shopPrice": 400,
-    "isInStock": true,
-    "prices": [
-      {
-        "size": "",
-        "age": "",
-        "price": 0
-      }
-    ],
-    "popular": true,
-    "category": "Plants"
-  },
-  "Pink-Champion": {
-    "id": "Pink-Champion",
-    "title": "Pink Champion",
-    "description": "General pink color laceleaf",
-    "images": [
-      {
-        "title": "pink-champion-1",
-        "path": "/images/shop/Pink-Champion/Anthurium-Painters-Palette.jpg"
-      },
-      {
-        "title": "pink-champion-2",
-        "path": "/images/shop/Pink-Champion/Best-Anthurium-Types-Feature.jpg"
-      },
-      {
-        "title": "pink-champion-3",
-        "path": "/images/shop/Pink-Champion/pink-blooming-anthurium-living-color-garden-center-1024x512.png"
-      },
-      {
-        "title": "pink-champion-4",
-        "path": "/images/shop/Pink-Champion/tJkWnWMT8GTcfPu6t7Kd7h.jpg"
-      }
-    ],
-    "shopImagePath": "/images/shop/Pink-Champion/anthurium-10.jpg",
-    "shopPrice": 400,
-    "isInStock": true,
-    "prices": [
-      {
-        "size": "",
-        "age": "",
-        "price": 0
-      }
-    ],
-    "popular": true,
-    "category": "Plants"
-  },
-  "White-Champion": {
-    "id": "White-Champion",
-    "title": "White Champion",
-    "description": "General white color laceleaf",
-    "images": [
-      {
-        "title": "white-champion-1",
-        "path": "/images/shop/White-Champion/Anthurium2.webp"
-      },
-      {
-        "title": "white-champion-2",
-        "path": "/images/shop/White-Champion/Nature-Rabbit-Anthurium-White-Plant.jpg"
-      }
-    ],
-    "shopImagePath": "/images/shop/White-Champion/anthurium-3.jpg",
-    "shopPrice": 400,
-    "isInStock": true,
-    "prices": [
-      {
-        "size": "",
-        "age": "",
-        "price": 0
-      }
-    ],
-    "popular": true,
-    "category": "Flowers"
-  }
+ "Alexia-Purple": {
+  "id": "Alexia-Purple",
+  "title": "Alexia Purple",
+  "description": "",
+  "images": [
+   {
+    "title": "alexia-purple-1",
+    "path": "/images/shop/Alexia-Purple/IMG_0739.JPG"
+   },
+   {
+    "title": "alexia-purple-2",
+    "path": "/images/shop/Alexia-Purple/IMG_0740.JPG"
+   },
+   {
+    "title": "alexia-purple-3",
+    "path": "/images/shop/Alexia-Purple/IMG_4623.JPG"
+   },
+   {
+    "title": "alexia-purple-4",
+    "path": "/images/shop/Alexia-Purple/IMG_4624.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Alexia-Purple/IMG_0736.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 800
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Baby-Purple": {
+  "id": "Baby-Purple",
+  "title": "Baby Purple",
+  "description": "",
+  "images": [
+   {
+    "title": "baby-purple-1",
+    "path": "/images/shop/Baby-Purple/IMG_0996.JPG"
+   },
+   {
+    "title": "baby-purple-2",
+    "path": "/images/shop/Baby-Purple/IMG_0997.JPG"
+   },
+   {
+    "title": "baby-purple-3",
+    "path": "/images/shop/Baby-Purple/IMG_0998.JPG"
+   },
+   {
+    "title": "baby-purple-4",
+    "path": "/images/shop/Baby-Purple/IMG_4627.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Baby-Purple/IMG_0847.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 600
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Butterfly-Orange": {
+  "id": "Butterfly-Orange",
+  "title": "Butterfly Orange",
+  "description": "",
+  "images": [
+   {
+    "title": "butterfly-orange-1",
+    "path": "/images/shop/Butterfly-Orange/IMG_0733.JPG"
+   },
+   {
+    "title": "butterfly-orange-2",
+    "path": "/images/shop/Butterfly-Orange/IMG_0734.JPG"
+   },
+   {
+    "title": "butterfly-orange-3",
+    "path": "/images/shop/Butterfly-Orange/IMG_0735.JPG"
+   },
+   {
+    "title": "butterfly-orange-4",
+    "path": "/images/shop/Butterfly-Orange/IMG_0925.JPG"
+   },
+   {
+    "title": "butterfly-orange-5",
+    "path": "/images/shop/Butterfly-Orange/IMG_4596.JPG"
+   },
+   {
+    "title": "butterfly-orange-6",
+    "path": "/images/shop/Butterfly-Orange/IMG_4610.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Butterfly-Orange/IMG_0731.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Coca-Cola": {
+  "id": "Coca-Cola",
+  "title": "Coca Cola",
+  "description": "",
+  "images": [],
+  "shopImagePath": "/images/shop/Coca-Cola/IMG_0749.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Jolly": {
+  "id": "Jolly",
+  "title": "Jolly",
+  "description": "",
+  "images": [
+   {
+    "title": "jolly-1",
+    "path": "/images/shop/Jolly/IMG_0851.JPG"
+   },
+   {
+    "title": "jolly-2",
+    "path": "/images/shop/Jolly/IMG_0862.JPG"
+   },
+   {
+    "title": "jolly-3",
+    "path": "/images/shop/Jolly/IMG_0977.JPG"
+   },
+   {
+    "title": "jolly-4",
+    "path": "/images/shop/Jolly/IMG_4616.JPG"
+   },
+   {
+    "title": "jolly-5",
+    "path": "/images/shop/Jolly/IMG_4632.JPG"
+   },
+   {
+    "title": "jolly-6",
+    "path": "/images/shop/Jolly/IMG_4637.JPG"
+   },
+   {
+    "title": "jolly-7",
+    "path": "/images/shop/Jolly/IMG_4639.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Jolly/IMG_0742.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Misuri-Orange": {
+  "id": "Misuri-Orange",
+  "title": "Misuri Orange",
+  "description": "",
+  "images": [
+   {
+    "title": "misuri-orange-1",
+    "path": "/images/shop/Misuri-Orange/IMG_4658.JPG"
+   },
+   {
+    "title": "misuri-orange-2",
+    "path": "/images/shop/Misuri-Orange/IMG_4660.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Misuri-Orange/IMG_0729.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 400
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Panedola": {
+  "id": "Panedola",
+  "title": "Panedola",
+  "description": "",
+  "images": [
+   {
+    "title": "panedola-1",
+    "path": "/images/shop/Panedola/IMG_0094.JPG"
+   },
+   {
+    "title": "panedola-2",
+    "path": "/images/shop/Panedola/IMG_0719.JPG"
+   },
+   {
+    "title": "panedola-3",
+    "path": "/images/shop/Panedola/IMG_0722.JPG"
+   },
+   {
+    "title": "panedola-4",
+    "path": "/images/shop/Panedola/IMG_0757.JPG"
+   },
+   {
+    "title": "panedola-5",
+    "path": "/images/shop/Panedola/IMG_0758.JPG"
+   },
+   {
+    "title": "panedola-6",
+    "path": "/images/shop/Panedola/IMG_0763.JPG"
+   },
+   {
+    "title": "panedola-7",
+    "path": "/images/shop/Panedola/IMG_0911.JPG"
+   },
+   {
+    "title": "panedola-8",
+    "path": "/images/shop/Panedola/IMG_4604.JPG"
+   },
+   {
+    "title": "panedola-9",
+    "path": "/images/shop/Panedola/IMG_4606.JPG"
+   },
+   {
+    "title": "panedola-10",
+    "path": "/images/shop/Panedola/IMG_4608.JPG"
+   },
+   {
+    "title": "panedola-11",
+    "path": "/images/shop/Panedola/IMG_4622.JPG"
+   },
+   {
+    "title": "panedola-12",
+    "path": "/images/shop/Panedola/IMG_4649.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Panedola/IMG_0089.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 1500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Correl": {
+  "id": "Pink-Correl",
+  "title": "Pink Correl",
+  "description": "",
+  "images": [
+   {
+    "title": "pink-correl-1",
+    "path": "/images/shop/Pink-Correl/IMG_4662.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Correl/IMG_0748.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 1500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Me": {
+  "id": "Pink-Me",
+  "title": "Pink Me",
+  "description": "",
+  "images": [
+   {
+    "title": "pink-me-1",
+    "path": "/images/shop/Pink-Me/IMG_4588.JPG"
+   },
+   {
+    "title": "pink-me-2",
+    "path": "/images/shop/Pink-Me/IMG_4589.JPG"
+   },
+   {
+    "title": "pink-me-3",
+    "path": "/images/shop/Pink-Me/IMG_4601.JPG"
+   },
+   {
+    "title": "pink-me-4",
+    "path": "/images/shop/Pink-Me/IMG_4602.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Me/IMG_0904.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 400
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Ribbon": {
+  "id": "Pink-Ribbon",
+  "title": "Pink Ribbon",
+  "description": "",
+  "images": [
+   {
+    "title": "pink-ribbon-1",
+    "path": "/images/shop/Pink-Ribbon/IMG_0745.JPG"
+   },
+   {
+    "title": "pink-ribbon-2",
+    "path": "/images/shop/Pink-Ribbon/IMG_0951.JPG"
+   },
+   {
+    "title": "pink-ribbon-3",
+    "path": "/images/shop/Pink-Ribbon/IMG_0952.JPG"
+   },
+   {
+    "title": "pink-ribbon-4",
+    "path": "/images/shop/Pink-Ribbon/IMG_0954.JPG"
+   },
+   {
+    "title": "pink-ribbon-5",
+    "path": "/images/shop/Pink-Ribbon/IMG_4618.JPG"
+   },
+   {
+    "title": "pink-ribbon-6",
+    "path": "/images/shop/Pink-Ribbon/IMG_4619.JPG"
+   },
+   {
+    "title": "pink-ribbon-7",
+    "path": "/images/shop/Pink-Ribbon/IMG_4633.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Ribbon/IMG_0109.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Red-Giant": {
+  "id": "Red-Giant",
+  "title": "Red Giant",
+  "description": "",
+  "images": [
+   {
+    "title": "red-giant-1",
+    "path": "/images/shop/Red-Giant/IMG_0128.JPG"
+   },
+   {
+    "title": "red-giant-2",
+    "path": "/images/shop/Red-Giant/IMG_0129.JPG"
+   },
+   {
+    "title": "red-giant-3",
+    "path": "/images/shop/Red-Giant/IMG_0130.JPG"
+   },
+   {
+    "title": "red-giant-4",
+    "path": "/images/shop/Red-Giant/IMG_0752.JPG"
+   },
+   {
+    "title": "red-giant-5",
+    "path": "/images/shop/Red-Giant/IMG_4611.JPG"
+   },
+   {
+    "title": "red-giant-6",
+    "path": "/images/shop/Red-Giant/IMG_4613.JPG"
+   },
+   {
+    "title": "red-giant-7",
+    "path": "/images/shop/Red-Giant/IMG_4614.JPG"
+   },
+   {
+    "title": "red-giant-8",
+    "path": "/images/shop/Red-Giant/IMG_4615.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Red-Giant/IMG_0127.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "White-Beauty": {
+  "id": "White-Beauty",
+  "title": "White Beauty",
+  "description": "",
+  "images": [
+   {
+    "title": "white-beauty-1",
+    "path": "/images/shop/White-Beauty/IMG_0747.JPG"
+   },
+   {
+    "title": "white-beauty-2",
+    "path": "/images/shop/White-Beauty/IMG_0936.JPG"
+   },
+   {
+    "title": "white-beauty-3",
+    "path": "/images/shop/White-Beauty/IMG_0937.JPG"
+   },
+   {
+    "title": "white-beauty-4",
+    "path": "/images/shop/White-Beauty/IMG_0946.JPG"
+   },
+   {
+    "title": "white-beauty-5",
+    "path": "/images/shop/White-Beauty/IMG_0947.JPG"
+   },
+   {
+    "title": "white-beauty-6",
+    "path": "/images/shop/White-Beauty/IMG_4594.JPG"
+   },
+   {
+    "title": "white-beauty-7",
+    "path": "/images/shop/White-Beauty/IMG_4595.JPG"
+   },
+   {
+    "title": "white-beauty-8",
+    "path": "/images/shop/White-Beauty/IMG_4653.JPG"
+   },
+   {
+    "title": "white-beauty-9",
+    "path": "/images/shop/White-Beauty/IMG_4654.JPG"
+   },
+   {
+    "title": "white-beauty-10",
+    "path": "/images/shop/White-Beauty/IMG_4655.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/White-Beauty/IMG_0746.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ }
 }

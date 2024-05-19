@@ -3,20 +3,20 @@
     {
       "title": "Anthurium",
       "subTitle": "Flowers for life",
-      "path": "/images/slider/anthurium-1.jpg",
+      "path": "/images/slider/IMG_4657.v01.jpg",
       "position": "top-right"
     },
     {
       "title": "Garden",
       "subTitle": "Make it yours",
-      "path": "/images/slider/anthurium-2.jpeg",
-      "position": "top-left"
+      "path": "/images/slider/IMG_0720.JPG",
+      "position": "bottom-right"
     },
     {
       "title": "Plants",
       "subTitle": "Bloom with expert care",
-      "path": "/images/slider/anthurium-3.jpg",
-      "position": "bottom-right"
+      "path": "/images/slider/IMG_1027.JPG",
+      "position": "top-right"
     }
   ],
   "shopTitle": "Popular",
@@ -30,7 +30,7 @@
   "contactUsFormTitle": "Drop us a message",
   "faqTitle": "FAQs",
   "faqSubTitle": "Got a question?",
-  "telNo": "071 9939729",
+  "telNo": "071 1788728",
   "email": "sujathasanthurium@gmail.com",
   "address": "No. 41, Remunagoda, Kalutara",
   "categories": ["Plants", "Flowers"]
