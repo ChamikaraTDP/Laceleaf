@@ -1,33 +1,6 @@
 import Image from "next/image";
 
-const getTitlePosition = (position: string) => {
-  switch (position) {
-    case "top-right": {
-      return {
-        right: "200px",
-        top: "40px",
-      };
-    }
-    case "top-left": {
-      return {
-        left: "100px",
-        top: "60px",
-      };
-    }
-    case "bottom-left": {
-      return {
-        left: "60px",
-        bottom: "15%",
-      };
-    }
-    case "bottom-right": {
-      return {
-        right: "200px",
-        bottom: "15%",
-      };
-    }
-  }
-};
+import "./custom.slider.css";
 
 type ImageMetaData = {
   title: string;
@@ -50,28 +23,14 @@ export default function AnnotatedImage({ imgMeta }: AnnotatedImageProps) {
         style={{ objectFit: "cover" }}
       />
       <div
-        style={{
-          position: "absolute",
-          color: "white",
-          ...getTitlePosition(imgMeta.position),
-        }}
-      >
+      className={`absolute text-white left-0 top-0 h-full w-full flex items-center justify-center flex-col sm:inline sm:h-auto sm:w-auto sm:${imgMeta.position}`} >
         <div
-          style={{
-            fontSize: "48px",
-            fontWeight: 700,
-            lineHeight: "60px",
-          }}
+          className="text-3xl sm:text-5xl font-bold leading-[60px]"
         >
           {imgMeta.title}
         </div>
         <div
-          style={{
-            fontSize: "24px",
-            fontWeight: 300,
-            paddingLeft: "8px",
-            fontStyle: "italic",
-          }}
+          className="text-lg sm:text-2xl font-light pl-2 italic"
         >
           {imgMeta.subTitle}
         </div>

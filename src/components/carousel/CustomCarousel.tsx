@@ -114,7 +114,7 @@ function CustomCarousel({
         )}
 
         <button
-          className="slider__btn-next"
+          className="slider__btn-next sm:slider__btn-next"
           onClick={(e) => {
             e.preventDefault();
             goToNext();
@@ -130,7 +130,7 @@ function CustomCarousel({
         </button>
 
         <button
-          className="slider__btn-prev"
+          className="slider__btn-prev sm:slider__btn-prev"
           onClick={(e) => {
             e.preventDefault();
             slidePrev();

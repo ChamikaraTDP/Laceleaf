@@ -14,7 +14,7 @@ function ExpandableDesc({ title, desc }: ExpandableDescProps) {
   return (
     <div>
       <div
-        className="flex text-lg text-slate-700 leading-8 cursor-pointer"
+        className="flex sm:text-lg text-slate-700 cursor-pointer"
         onClick={() => setIsExpanded((prev) => !prev)}
       >
         <Image
@@ -28,7 +28,7 @@ function ExpandableDesc({ title, desc }: ExpandableDescProps) {
         {title}
       </div>
 
-      {isExpanded && <div className="pt-2 pb-4 pl-10">{desc}</div>}
+      {isExpanded && <div className="pt-2 pb-4 pl-10 text-sm sm:text-base">{desc}</div>}
     </div>
   );
 }

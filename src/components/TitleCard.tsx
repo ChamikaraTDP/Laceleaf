@@ -14,8 +14,8 @@ function TitleCard({ title, subTitle, lang }: TitleCardProps) {
 
   return (
     <div className="flex">
-      <div id={title} className={`${tertiaryFont.className} text-4xl`}>{title}</div>
-      <div className={`pl-2 text-xl font-extralight italic translate-y-4`}>
+      <div id={title} className={`${tertiaryFont.className} text-2xl sm:text-4xl`}>{title}</div>
+      <div className={`pl-2 hidden sm:block text-xl font-extralight italic translate-y-4`}>
         {subTitle}
       </div>
     </div>

@@ -4,19 +4,19 @@
       "title": "Anthurium",
       "subTitle": "Flowers for life",
       "path": "/images/slider/IMG_4657.v01.jpg",
-      "position": "top-right"
+      "position": "img-text-top-right"
     },
     {
       "title": "Garden",
       "subTitle": "Make it yours",
       "path": "/images/slider/IMG_0720.JPG",
-      "position": "bottom-right"
+      "position": "img-text-bottom-right"
     },
     {
       "title": "Plants",
       "subTitle": "Bloom with expert care",
       "path": "/images/slider/IMG_1027.JPG",
-      "position": "top-right"
+      "position": "img-text-top-right"
     }
   ],
   "shopTitle": "Popular",
