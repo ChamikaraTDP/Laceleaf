@@ -1,5 +1,4 @@
 import ContactUs from "@components/home/ContactUs";
-import Footer from "@components/home/Footer";
 import CustomCarousel from "@components/carousel/CustomCarousel";
 import AnnotatedImage from "@components/carousel/AnnotatedImage";
 import TitleCard from "@components/TitleCard";
@@ -93,9 +92,6 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
 
       {/* contact us */}
       <ContactUs homeData={homeData} dictionary={dictionary} lang={params.lang} tertiaryFont={tertiaryFont} />
-
-      {/* footer */}
-      <Footer homeData={homeData} />
     </main>
   );
 }

@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import { saveUserMessage } from "../../actions/responses";
-import { Locale } from "../../types/common";
+import { saveUserMessage } from "@/actions/responses";
+import { Locale } from "@/types/common";
 
 type ContactUsProps = {
   lang: Locale;
@@ -45,7 +45,7 @@ export default function ContactUs({
         <div className="absolute top-2 left-2 xl:top-5 xl:left-5 w-[98%] h-[200px] sm:w-[270px] sm:h-[350px] 2xl:w-[400px] 2xl:h-[516px]">
           <Image
             alt="contact-image"
-            src={"/images/contact/anthurium-7.webp"}
+            src={"/images/contact/IMG_0130-mkd.JPG"}
             fill
             style={{ objectFit: 'cover' }}
             sizes="(min-width: 650px) 270px, (min-width: 1536px) 400px, 100vw"

@@ -6,10 +6,11 @@ import { getDictionary, getHomeData } from "@/dictionaries";
 import { Locale } from "@/types/common";
 import { Suspense } from "react";
 import { SidebarSkeleton } from "@components/skeletons";
+import Footer from "@components/home/Footer";
 
 export const metadata: Metadata = {
-  title: "Sujatha's Anthurium",
-  description: "All your needs with Anthurium",
+  title: "Sujatha's Anthurium | Florist Sri Lanka | Anthurium Flowers & Plants",
+  description: "Healthly, beautiful anthurium flowers & plants for affordable price",
 };
 
 export async function generateStaticParams() {
@@ -46,6 +47,9 @@ export default async function RootLayout({
 
         <div className="col-span-12 lg:col-span-10 h-screen overflow-auto">
           {children}
+
+          {/* footer */}
+          <Footer homeData={homeData} />
         </div>
       </body>
     </html>
