@@ -3,6 +3,12 @@ import items from "../../../../data/item-metadata.json";
 import { getHomeData } from "../../../../dictionaries";
 import { Locale } from "../../../../types/common";
 
+export async function generateStaticParams() {
+  return Object.keys(items).map((itemKey) => ({
+    slug: itemKey,
+  }));
+}
+
 export default async function ItemDetailView({
   params,
 }: {

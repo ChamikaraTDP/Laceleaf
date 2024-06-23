@@ -56,7 +56,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         <div className="relative w-[108px] h-[40px] sm:w-[140px] sm:h-[52px] lg:w-[172px] lg:h-[64px] object-contain">
           <Link href={`/${lang}`} className="cursor-pointer">
             <Image
-              alt="Sujathas-Anthurium Title Image"
+              alt="Sujatha's Anthurium Title Image, shows the brand logo"
               src={"/Sujathas-Anthurium.png"}
               fill
               sizes="(min-width: 640px) 140px, (min-width: 1024px) 172px, 108px"

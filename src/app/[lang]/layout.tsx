@@ -32,6 +32,11 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
+      <head>
+        <link rel="alternate" href="https://sujathasanthurium.com/en" hrefLang="en" />
+        <link rel="alternate" href="https://sujathasanthurium.com/si" hrefLang="si" />
+        <link rel="alternate" href="https://sujathasanthurium.com/en" hrefLang="x-default" />
+      </head>
       <body
         className={`${primaryFont.className} grid grid-cols-12 text-gray-800`}
       >

@@ -45,7 +45,7 @@ export default function ItemDetailCard({
         </div>
       </div>
 
-      <div className="min-h-full w-1/4">
+      <div className="h-screen overflow-auto w-1/4">
         <div className="flex bg-bg-default justify-evenly py-2">
           <Link
             className="rounded-full flex justify-center items-center bg-white w-10 h-10 hover:bg-focus-primary"
@@ -74,7 +74,7 @@ export default function ItemDetailCard({
           </Link>
         </div>
 
-        <div className="flex justify-center items-center py-4 pt-6">
+        <div className="flex justify-center items-center pt-6">
           <div
             className={`${prata.className} text-2xl font-bold text-slate-800`}
           >
@@ -82,9 +82,150 @@ export default function ItemDetailCard({
           </div>
         </div>
 
-        <p className={`${roboto.className} p-4 text-slate-700`}>
+        <p className={`${roboto.className} text-base/5 p-4 text-slate-700`}>
           {item.description}
         </p>
+
+        <div className="p-4">
+          <h4 className="text-lg text-center">Anatomy</h4>
+
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-bg-default">
+                <th className="text-left pl-2">Characteristic</th>
+                <th className="text-left pl-2">Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spathe Color</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.spathe.color.join(", ")}
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spadix Color</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.spadix.color.join(", ")}
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spathe Shape</td>
+                <td className="py-1 pl-2">{item.anatomy?.spathe.shape}</td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Plant Height</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.tree["hight-min"]}-
+                  {item.anatomy?.tree["hight-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Plant Spread</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.tree["width-min"]}-
+                  {item.anatomy?.tree["width-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spathe Length</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.spathe["length-min"]}-
+                  {item.anatomy?.spathe["length-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spathe Width</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.spathe["width-min"]}-
+                  {item.anatomy?.spathe["width-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Spadix Length</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.spadix["length-old-min"]}-
+                  {item.anatomy?.spadix["length-old-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Leaf Length</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.leaf["length-min"]}-
+                  {item.anatomy?.leaf["length-max"]} inch
+                </td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Leaf Width</td>
+                <td className="py-1 pl-2">
+                  {item.anatomy?.leaf["width-min"]}-
+                  {item.anatomy?.leaf["width-max"]} inch
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="p-4">
+          <h4 className="text-lg text-center">Prices</h4>
+
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-bg-default">
+                <th className="text-left pl-2">Size</th>
+                <th className="text-left pl-2">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Small Plants</td>
+                <td className="py-1 pl-2">250 /=</td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Medium Plants</td>
+                <td className="py-1 pl-2">450 /=</td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Mother Plants</td>
+                <td className="py-1 pl-2">750 /=</td>
+              </tr>
+              <tr className="border-b border-bg-primary">
+                <td className="py-1 pl-2">Bushes</td>
+                <td className="py-1 pl-2">1250 /=</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="p-4">
+          <h4 className="text-center">Size Description</h4>
+
+          <table className="w-full text-sm">
+            <tbody>
+              <tr className="border-b">
+                <td className="pl-2">Small&nbsp;Plants</td>
+                <td className="pl-2">3-5 inch , without flowers</td>
+              </tr>
+              <tr className="border-b">
+                <td className="pl-2">Medium&nbsp;Plants</td>
+                <td className="pl-2">4-6 inch , with flowers</td>
+              </tr>
+              <tr className="border-b">
+                <td className="pl-2">Mother&nbsp;Plants</td>
+                <td className="pl-2">
+                  7-36 inch, with flowers, Plant size vary based on variety
+                </td>
+              </tr>
+              <tr className="border-b">
+                <td className="pl-2">Bushes</td>
+                <td className="pl-2">
+                  More than one Plant, (7 - 36) inch, with flowers, Plant size
+                  vary based on variety
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

@@ -29,6 +29,8 @@
       "color-old": ["dark-purple"],
       "length-min": 1,
       "length-max": 1.75,
+      "length-old-min": 0,
+      "length-old-max": 0,
       "other": ""
     },
     "spathe": {
@@ -36,6 +38,8 @@
       "color-old": ["pink", "white", "green"],
       "length-min": 3.5,
       "length-max": 6,
+      "width-min": 0,
+      "width-max": 0,
       "shape": "lengthy",
       "vains": "",
       "other": "gets greener with age"
@@ -51,6 +55,8 @@
       "shape": "lengthy",
       "length-min": 7,
       "length-max": 8.5,
+      "width-min": 0,
+      "width-max": 0,
       "vains": "",
       "other": ""
     },
@@ -649,7 +655,7 @@
  "White-Beauty": {
   "id": "White-Beauty",
   "title": "White Beauty",
-  "description": "White Beauty is a little short, wide spread and flower-filled plant with triangular shaped leaves and flowers. Young budding flowers have a rose color then turn into white when mature. Flower spathe is a relatively small narrow one and the spadix is relatively short and pale purple in color.",
+  "description": "White Beauty is a little short, wide spread and flower-filled plant with triangular shaped leaves and flowers. Young budding flowers have a rose color then turn into white when mature. Flower spathe is a relatively small narrow and the spadix is relatively short and pale purple in color.",
   "shortDesc": "",
   "images": [
    {
