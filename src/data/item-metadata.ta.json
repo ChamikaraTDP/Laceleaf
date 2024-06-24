@@ -1,0 +1,759 @@
+{
+ "Alexia-Purple": {
+  "id": "Alexia-Purple",
+  "title": "Alexia Purple",
+  "description": "Flower with a long spathe, with dark pink vains and a beautiful pink spread in it's white color background. Has a distinguishing dark purple spadix. Older flowers turn into a nice green, white and pink blend.",
+  "shortDesc": "",
+  "images": [
+   {
+    "title": "alexia-purple-1",
+    "path": "/images/shop/Alexia-Purple/IMG_0739-mkd.JPG"
+   },
+   {
+    "title": "alexia-purple-2",
+    "path": "/images/shop/Alexia-Purple/IMG_0740-mkd.JPG"
+   },
+   {
+    "title": "alexia-purple-3",
+    "path": "/images/shop/Alexia-Purple/IMG_4623-mkd.JPG"
+   },
+   {
+    "title": "alexia-purple-4",
+    "path": "/images/shop/Alexia-Purple/IMG_4624-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Alexia-Purple/IMG_0736-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["dark-purple"],
+      "color-old": ["dark-purple"],
+      "length-min": 1,
+      "length-max": 1.75,
+      "length-old-min": 0,
+      "length-old-max": 0,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["pink", "white"],
+      "color-old": ["pink", "white", "green"],
+      "length-min": 3.5,
+      "length-max": 6,
+      "width-min": 0,
+      "width-max": 0,
+      "shape": "lengthy",
+      "vains": "",
+      "other": "gets greener with age"
+    },
+    "tree": {
+      "hight-min": 12,
+      "hight-max": 17,
+      "width-min": 20,
+      "width-max": 25,
+      "other": "dense tree filled with leaves and flowers, hight is relatively low"
+    },
+    "leaf": {
+      "shape": "lengthy",
+      "length-min": 7,
+      "length-max": 8.5,
+      "width-min": 0,
+      "width-max": 0,
+      "vains": "",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 800
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Baby-Purple": {
+  "id": "Baby-Purple",
+  "title": "Baby Purple",
+  "description": "",
+  "images": [
+   {
+    "title": "baby-purple-1",
+    "path": "/images/shop/Baby-Purple/IMG_0996-mkd.JPG"
+   },
+   {
+    "title": "baby-purple-2",
+    "path": "/images/shop/Baby-Purple/IMG_0997-mkd.JPG"
+   },
+   {
+    "title": "baby-purple-3",
+    "path": "/images/shop/Baby-Purple/IMG_0998-mkd.JPG"
+   },
+   {
+    "title": "baby-purple-4",
+    "path": "/images/shop/Baby-Purple/IMG_4627-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Baby-Purple/IMG_0847-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 600
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Butterfly-Orange": {
+  "id": "Butterfly-Orange",
+  "title": "Butterfly Orange",
+  "description": "This anthurium variant has a beautiful heart shaped(I mean the real heart) spathe filled with orange and green color. Spadix is yellow in color when young and introduce some white when gets old. Spathe become more greener when mature.",
+  "shortDesc": "",
+  "images": [
+   {
+    "title": "butterfly-orange-1",
+    "path": "/images/shop/Butterfly-Orange/IMG_0733-mkd.JPG"
+   },
+   {
+    "title": "butterfly-orange-2",
+    "path": "/images/shop/Butterfly-Orange/IMG_0734-mkd.JPG"
+   },
+   {
+    "title": "butterfly-orange-3",
+    "path": "/images/shop/Butterfly-Orange/IMG_0735-mkd.JPG"
+   },
+   {
+    "title": "butterfly-orange-4",
+    "path": "/images/shop/Butterfly-Orange/IMG_0925-mkd.JPG"
+   },
+   {
+    "title": "butterfly-orange-5",
+    "path": "/images/shop/Butterfly-Orange/IMG_4596-mkd.JPG"
+   },
+   {
+    "title": "butterfly-orange-6",
+    "path": "/images/shop/Butterfly-Orange/IMG_4610-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Butterfly-Orange/IMG_0731-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["yellow"],
+      "length-min": 0.5,
+      "length-max": 1,
+      "color-old": ["white", "yellow", "green"],
+      "length-old-min": 1,
+      "length-old-max": 1.5,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["orange"],
+      "color-old": ["pink", "green"],
+      "length-min": 4.5,
+      "length-max": 5.5,
+      "width-min": 4,
+      "width-max": 5,
+      "shape": "heart",
+      "vains": "",
+      "other": "young ones has small green shade, gets greener with age, one side higher than the other"
+    },
+    "tree": {
+      "hight-min": 15,
+      "hight-max": 21,
+      "width-min": 24,
+      "width-max": 27,
+      "other": "medium dense, medium hight"
+    },
+    "leaf": {
+      "shape": "oval",
+      "length-min": 6,
+      "length-max": 8.5,
+      "width-min": 4,
+      "width-max": 5,
+      "vains": "",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Coca-Cola": {
+  "id": "Coca-Cola",
+  "title": "Coca Cola",
+  "description": "",
+  "images": [],
+  "shopImagePath": "/images/shop/Coca-Cola/IMG_0749-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Jolly": {
+  "id": "Jolly",
+  "title": "Jolly",
+  "description": "",
+  "images": [
+   {
+    "title": "jolly-1",
+    "path": "/images/shop/Jolly/IMG_0851-mkd.JPG"
+   },
+   {
+    "title": "jolly-2",
+    "path": "/images/shop/Jolly/IMG_0862-mkd.JPG"
+   },
+   {
+    "title": "jolly-3",
+    "path": "/images/shop/Jolly/IMG_0977-mkd.JPG"
+   },
+   {
+    "title": "jolly-4",
+    "path": "/images/shop/Jolly/IMG_4616-mkd.JPG"
+   },
+   {
+    "title": "jolly-5",
+    "path": "/images/shop/Jolly/IMG_4632-mkd.JPG"
+   },
+   {
+    "title": "jolly-6",
+    "path": "/images/shop/Jolly/IMG_4637-mkd.JPG"
+   },
+   {
+    "title": "jolly-7",
+    "path": "/images/shop/Jolly/IMG_4639-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Jolly/IMG_0742-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Misuri-Orange": {
+  "id": "Misuri-Orange",
+  "title": "Misuri Orange",
+  "description": "",
+  "images": [
+   {
+    "title": "misuri-orange-1",
+    "path": "/images/shop/Misuri-Orange/IMG_4658-mkd.JPG"
+   },
+   {
+    "title": "misuri-orange-2",
+    "path": "/images/shop/Misuri-Orange/IMG_4660-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Misuri-Orange/IMG_0729-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 400
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Panedola": {
+  "id": "Panedola",
+  "title": "Panedola",
+  "description": "This flower has a diamond shaped spathe with pink and green colors. Has a yellow spadix that turns green when gets old. Spathe shits it's color to white and green over time.",
+  "shortDesc": "",
+  "images": [
+   {
+    "title": "panedola-1",
+    "path": "/images/shop/Panedola/IMG_0094-mkd.JPG"
+   },
+   {
+    "title": "panedola-2",
+    "path": "/images/shop/Panedola/IMG_0719-mkd.JPG"
+   },
+   {
+    "title": "panedola-3",
+    "path": "/images/shop/Panedola/IMG_0722-mkd.JPG"
+   },
+   {
+    "title": "panedola-4",
+    "path": "/images/shop/Panedola/IMG_0757-mkd.JPG"
+   },
+   {
+    "title": "panedola-5",
+    "path": "/images/shop/Panedola/IMG_0758-mkd.JPG"
+   },
+   {
+    "title": "panedola-6",
+    "path": "/images/shop/Panedola/IMG_0763-mkd.JPG"
+   },
+   {
+    "title": "panedola-7",
+    "path": "/images/shop/Panedola/IMG_0911-mkd.JPG"
+   },
+   {
+    "title": "panedola-8",
+    "path": "/images/shop/Panedola/IMG_4604-mkd.JPG"
+   },
+   {
+    "title": "panedola-9",
+    "path": "/images/shop/Panedola/IMG_4606-mkd.JPG"
+   },
+   {
+    "title": "panedola-10",
+    "path": "/images/shop/Panedola/IMG_4608-mkd.JPG"
+   },
+   {
+    "title": "panedola-11",
+    "path": "/images/shop/Panedola/IMG_4622-mkd.JPG"
+   },
+   {
+    "title": "panedola-12",
+    "path": "/images/shop/Panedola/IMG_4649-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Panedola/IMG_0089-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["yellow"],
+      "length-min": 1,
+      "length-max": 1.5,
+      "color-old": ["green"],
+      "length-old-min": 1,
+      "length-old-max": 2,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["pink", "green"],
+      "color-old": ["white", "green"],
+      "length-min": 3,
+      "length-max": 4,
+      "width-min": 4,
+      "width-max": 5.5,
+      "shape": "diamond",
+      "vains": "",
+      "other": "gets greener with age"
+    },
+    "tree": {
+      "hight-min": 16,
+      "hight-max": 18,
+      "width-min": 22,
+      "width-max": 24,
+      "other": "less dense, medium hight"
+    },
+    "leaf": {
+      "shape": "spear",
+      "length-min": 7,
+      "length-max": 8,
+      "width-min": 3.5,
+      "width-max": 4,
+      "vains": "",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 1500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Correl": {
+  "id": "Pink-Correl",
+  "title": "Pink Correl",
+  "description": "Anthurium plant with a mild pink, green bicolored flower and a relatively long yellow spadix. Spathe changes it's color to white and green over time. One side of the flower goes on top of the other in top part.",
+  "shortDesc": "",
+  "images": [
+   {
+    "title": "pink-correl-1",
+    "path": "/images/shop/Pink-Correl/IMG_4662-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Correl/IMG_0748-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["yellow"],
+      "length-min": 2.75,
+      "length-max": 3,
+      "color-old": ["green"],
+      "length-old-min": 4,
+      "length-old-max": 5,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["pink"],
+      "color-old": ["pink", "white", "green"],
+      "length-min": 4,
+      "length-max": 6,
+      "width-min": 3.5,
+      "width-max": 4.5,
+      "shape": "oval",
+      "vains": "",
+      "other": "gets green, white with age"
+    },
+    "tree": {
+      "hight-min": 22,
+      "hight-max": 24,
+      "width-min": 22,
+      "width-max": 24,
+      "other": "wide spread, less dense, medium hight"
+    },
+    "leaf": {
+      "shape": "oval",
+      "length-min": 10,
+      "length-max": 12,
+      "width-min": 6.5,
+      "width-max": 8,
+      "vains": "",
+      "tip": "bend inside",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 1500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 300,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Me": {
+  "id": "Pink-Me",
+  "title": "Pink Me",
+  "description": "",
+  "images": [
+   {
+    "title": "pink-me-1",
+    "path": "/images/shop/Pink-Me/IMG_4588-mkd.JPG"
+   },
+   {
+    "title": "pink-me-2",
+    "path": "/images/shop/Pink-Me/IMG_4589-mkd.JPG"
+   },
+   {
+    "title": "pink-me-3",
+    "path": "/images/shop/Pink-Me/IMG_4601-mkd.JPG"
+   },
+   {
+    "title": "pink-me-4",
+    "path": "/images/shop/Pink-Me/IMG_4602-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Me/IMG_0904-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 400
+   }
+  ],
+  "popular": true,
+  "shopPrice": 200,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Pink-Ribbon": {
+  "id": "Pink-Ribbon",
+  "title": "Pink Ribbon",
+  "description": "",
+  "images": [
+   {
+    "title": "pink-ribbon-1",
+    "path": "/images/shop/Pink-Ribbon/IMG_0745-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-2",
+    "path": "/images/shop/Pink-Ribbon/IMG_0951-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-3",
+    "path": "/images/shop/Pink-Ribbon/IMG_0952-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-4",
+    "path": "/images/shop/Pink-Ribbon/IMG_0954-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-5",
+    "path": "/images/shop/Pink-Ribbon/IMG_4618-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-6",
+    "path": "/images/shop/Pink-Ribbon/IMG_4619-mkd.JPG"
+   },
+   {
+    "title": "pink-ribbon-7",
+    "path": "/images/shop/Pink-Ribbon/IMG_4633-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Pink-Ribbon/IMG_0109-mkd.JPG",
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "Red-Giant": {
+  "id": "Red-Giant",
+  "title": "Red Giant",
+  "description": "Relatively large plant with a great looking flower. This anthurium flower has a nice round shape and a glovy red color. When aging spathe become mild rose and then turn into yellow and green color. Top part of the flowers and leaves are attached together creating a unique look.",
+  "images": [
+   {
+    "title": "red-giant-1",
+    "path": "/images/shop/Red-Giant/IMG_0128-mkd.JPG"
+   },
+   {
+    "title": "red-giant-2",
+    "path": "/images/shop/Red-Giant/IMG_0129-mkd.JPG"
+   },
+   {
+    "title": "red-giant-3",
+    "path": "/images/shop/Red-Giant/IMG_0130-mkd.JPG"
+   },
+   {
+    "title": "red-giant-4",
+    "path": "/images/shop/Red-Giant/IMG_0752-mkd.JPG"
+   },
+   {
+    "title": "red-giant-5",
+    "path": "/images/shop/Red-Giant/IMG_4611-mkd.JPG"
+   },
+   {
+    "title": "red-giant-6",
+    "path": "/images/shop/Red-Giant/IMG_4613-mkd.JPG"
+   },
+   {
+    "title": "red-giant-7",
+    "path": "/images/shop/Red-Giant/IMG_4614-mkd.JPG"
+   },
+   {
+    "title": "red-giant-8",
+    "path": "/images/shop/Red-Giant/IMG_4615-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/Red-Giant/IMG_0127-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["white", "yellow"],
+      "length-min": 2.25,
+      "length-max": 2.5,
+      "color-old": ["white", "green"],
+      "length-old-min": 3.25,
+      "length-old-max": 4,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["red"],
+      "color-old": ["mild rose", "yellow", "green"],
+      "length-min": 5.25,
+      "length-max": 6,
+      "width-min": 4,
+      "width-max": 5,
+      "shape": "round",
+      "vains": "",
+      "other": "glovy, gets greener with age"
+    },
+    "tree": {
+      "hight-min": 36,
+      "hight-max": 32,
+      "width-min": 30,
+      "width-max": 36,
+      "other": "large, wide spread, less dense, tall"
+    },
+    "leaf": {
+      "shape": "oval",
+      "length-min": 12,
+      "length-max": 16,
+      "width-min": 7,
+      "width-max": 8.5,
+      "vains": "",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ },
+ "White-Beauty": {
+  "id": "White-Beauty",
+  "title": "White Beauty",
+  "description": "White Beauty is a little short, wide spread and flower-filled plant with triangular shaped leaves and flowers. Young budding flowers have a rose color then turn into white when mature. Flower spathe is a relatively small narrow and the spadix is relatively short and pale purple in color.",
+  "shortDesc": "",
+  "images": [
+   {
+    "title": "white-beauty-1",
+    "path": "/images/shop/White-Beauty/IMG_0747-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-2",
+    "path": "/images/shop/White-Beauty/IMG_0936-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-3",
+    "path": "/images/shop/White-Beauty/IMG_0937-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-4",
+    "path": "/images/shop/White-Beauty/IMG_0946-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-5",
+    "path": "/images/shop/White-Beauty/IMG_0947-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-6",
+    "path": "/images/shop/White-Beauty/IMG_4594-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-7",
+    "path": "/images/shop/White-Beauty/IMG_4595-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-8",
+    "path": "/images/shop/White-Beauty/IMG_4653-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-9",
+    "path": "/images/shop/White-Beauty/IMG_4654-mkd.JPG"
+   },
+   {
+    "title": "white-beauty-10",
+    "path": "/images/shop/White-Beauty/IMG_4655-mkd.JPG"
+   }
+  ],
+  "shopImagePath": "/images/shop/White-Beauty/IMG_0746-mkd.JPG",
+  "anatomy": {
+    "spadix": {
+      "color": ["pale-purple"],
+      "length-min": 0.5,
+      "length-max": 1.5,
+      "color-old": ["pale-purple"],
+      "length-old-min": 1,
+      "length-old-max": 1.25,
+      "other": ""
+    },
+    "spathe": {
+      "color": ["white"],
+      "color-old": ["white"],
+      "length-min": 2.5,
+      "length-max": 3,
+      "width-min": 1.5,
+      "width-max": 2,
+      "shape": "triangular",
+      "vains": "",
+      "other": "no color change with age"
+    },
+    "tree": {
+      "hight-min": 11,
+      "hight-max": 12,
+      "width-min": 16,
+      "width-max": 18,
+      "other": "dense, short"
+    },
+    "leaf": {
+      "shape": "triangular",
+      "length-min": 5.5,
+      "length-max": 6.5,
+      "width-min": 2.75,
+      "width-max": 3.25,
+      "vains": "",
+      "other": ""
+    },
+    "stalk": {},
+    "flower-bud": {},
+    "petiole": {},
+    "stem": {},
+    "roots": {},
+    "other": {}
+  },
+  "prices": [
+   {
+    "size": "",
+    "age": "",
+    "price": 500
+   }
+  ],
+  "popular": true,
+  "shopPrice": 250,
+  "isInStock": true,
+  "category": "Flowers"
+ }
+}

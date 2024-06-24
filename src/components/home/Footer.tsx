@@ -16,7 +16,7 @@ function Footer({ homeData }: FooterProps) {
 
       <div className="relative order-1 sm:order-2 w-[108px] h-[40px] sm:w-[140px] sm:h-[52px] lg:w-[172px] lg:h-[64px]">
         <Image
-          alt="Sujathas-Anthurium Title Image"
+          alt="Sujathas-Anthurium Title Image, shows brand logo"
           src={"/Sujathas-Anthurium.png"}
           fill
           style={{ objectFit: 'contain' }}

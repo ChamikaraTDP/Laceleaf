@@ -3,7 +3,7 @@ import CustomCarousel from "@components/carousel/CustomCarousel";
 import AnnotatedImage from "@components/carousel/AnnotatedImage";
 import TitleCard from "@components/TitleCard";
 import Link from "next/link";
-import items from "@/data/item-metadata.json";
+import items from "@/data/item-metadata.en.json";
 import ItemCard from "@components/ItemCard";
 import ExpandableDesc from "@components/ExpandableDesc";
 import { getDictionary, getFaq, getHomeData } from "@/dictionaries";

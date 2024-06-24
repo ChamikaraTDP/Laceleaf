@@ -27,16 +27,20 @@ do
 			echo "$destFolder folder created"
 		fi
 
+		num=1;
+
 		for image in "$dir"/*.JPG;
 		do 
-			fullname="${image##*/}";
+			# fullname="${image##*/}";
+			# filename="${fullname%.*}";
 
-			filename="${fullname%.*}";
-			destFileName="$destFolder/$filename-mkd.JPG";
+			destFileName="$destFolder/anthurium-$foldername-$num.JPG";
 
 			convert "$image" -resize 1920x1280 miff:- | composite -dissolve 50 -gravity southeast -geometry +20+20  watermark-small.png - "$destFileName";
 
 			echo "img created as $destFileName";
+
+			(( num += 1 ))
 		done
 	fi
 done

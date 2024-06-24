@@ -3,20 +3,23 @@
     {
       "title": "Anthurium",
       "subTitle": "Flowers for life",
-      "path": "/images/slider/anthurium-1.jpg",
-      "position": "img-text-top-right"
+      "path": "/images/slider/Red-anthurium-large.jpg",
+      "position": "img-text-top-right",
+      "altText": "Red anthurium flowers"
     },
     {
       "title": "Garden",
       "subTitle": "Make it yours",
       "path": "/images/slider/anthurium-2.jpeg",
-      "position": "img-text-top-left"
+      "position": "img-text-top-left",
+      "altText": "Vivid color anthurium plants"
     },
     {
       "title": "Plants",
       "subTitle": "Bloom with expert care",
       "path": "/images/slider/anthurium-3.jpg",
-      "position": "img-text-bottom-right"
+      "position": "img-text-bottom-right",
+      "altText": "Vivid color anthurium plants"
     }
   ],
   "shopTitle": "Popular",

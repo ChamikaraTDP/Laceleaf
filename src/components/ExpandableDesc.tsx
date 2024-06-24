@@ -19,7 +19,7 @@ function ExpandableDesc({ title, desc }: ExpandableDescProps) {
       >
         <Image
           className="mr-4"
-          alt="exp-less"
+          alt="expand less icon"
           src={isExpanded ? "/icons/expand-less.svg" : "/icons/expand-more.svg"}
           width={20}
           height={20}

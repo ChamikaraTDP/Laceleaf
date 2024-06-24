@@ -3,7 +3,7 @@ import CustomCarousel from "./CustomCarousel";
 import { ItemImage } from "../../types/common";
 
 type ImageCarouselProps = {
-  images: ItemImage[];
+  images: (ItemImage  & { altText: string })[];
   autoSlide: boolean;
   showLinkDots: boolean;
   showThumbnail: boolean;
@@ -25,7 +25,7 @@ export default function ImageCarousel({
           <Image
             key={img.title}
             src={img.path}
-            alt={img.title}
+            alt={img.altText}
             fill={true}
             style={{ objectFit: "cover" }}
             quality={40}
@@ -38,7 +38,7 @@ export default function ImageCarousel({
         <div key={img.path} className="h-full w-full relative">
           <Image
             src={img.path}
-            alt={img.title}
+            alt={img.altText}
             fill={true}
             style={{ objectFit: "contain" }}
           />

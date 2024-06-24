@@ -10,13 +10,15 @@ type ItemCardProps = {
 function ItemCard({ item, lang  }: ItemCardProps) {
   return (
     <Link href={`/${lang}/item/${item.id}`} className="relative w-[150px] sm:w-[200px] hover:shadow-md hover:shadow-red-200 cursor-pointer">
+
+      {/* todo: revamp sizes */}
       <div className="relative w-[150px] h-[160px] sm:w-[200px] sm:h-[200px]">
         <Image
-          alt="item image"
+          alt={`${item.altDesc} main image`}
           src={item.shopImagePath}
           fill={true}
           style={{ objectFit: "cover" }}
-          sizes="(min-width: 640px) 200px, (min-width: 1200px) 400px, 160px"
+          sizes="(min-width: 640px) 300px, (min-width: 1200px) 400px, 300px"
           quality={40}
         />
       </div>

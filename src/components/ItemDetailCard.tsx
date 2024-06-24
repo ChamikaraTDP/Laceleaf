@@ -23,7 +23,10 @@ export default function ItemDetailCard({
     <div className="min-h-screen w-full flex">
       <div className="relative min-h-full w-3/4">
         <ImageCarousel
-          images={item.images}
+          images={item.images.map((img) => ({
+            ...img,
+            altText: `${item.altDesc} ${img.title}`
+          }))}
           showThumbnail
           autoSlide={false}
           showLinkDots={false}

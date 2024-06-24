@@ -159,7 +159,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
               >
                 <Image
                   src="/icons/mail.svg"
-                  alt="mail icon"
+                  alt="email icon"
                   width={30}
                   height={30}
                   className="pr-2"

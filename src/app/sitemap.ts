@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import items from "@/data/item-metadata.json";
+import items from "@/data/item-metadata.en.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const itemPaths = Object.keys(items).map((val) => "item/" + val);

@@ -39,13 +39,16 @@ console.log(folderNames);
 let previousData = null;
 
 try {
-  if (fs.existsSync("./src/data/item-metadata.json")) {
-    const imgData = fs.readFileSync("./src/data/item-metadata.json");
+  if (fs.existsSync("./src/data/item-metadata.en.json")) {
+    const imgData = fs.readFileSync("./src/data/item-metadata.en.json");
 
     previousData = JSON.parse(imgData);
   }
 } catch (error) {
-  console.log("Error occured while reading file, item-metadata.json ", error);
+  console.log(
+    "Error occured while reading file, item-metadata.en.json ",
+    error
+  );
 }
 
 // Read file names
@@ -55,20 +58,21 @@ let imgJson = {};
 
 for (let folderPath of folderNames) {
   fileNames = getFileNames(folderPath).map((fileName) => {
-    return fileName.split('public', 2)[1];
+    return fileName.split("public", 2)[1];
   });
   fileNames.sort((a, b) => a.localeCompare(b));
   folderName = folderPath.substring(base.length - 1);
 
   if (previousData && previousData[folderName]) {
-    imgJson[folderName] = {  ...previousData[folderName] };
+    imgJson[folderName] = { ...previousData[folderName] };
 
     imgJson[folderName].images = fileNames.slice(1).map((fileName, index) => {
       return {
-        title:
-          folderName.trim().toLowerCase().replaceAll(" ", "-") +
-          "-" +
-          (index + 1),
+        // title:
+        //   folderName.trim().toLowerCase().replaceAll(" ", "-") +
+        //   "-" +
+        //   (index + 1),
+        title: `image ${index + 1}`,
         path: fileName,
       };
     });
@@ -80,10 +84,11 @@ for (let folderPath of folderNames) {
       description: "",
       images: fileNames.slice(1).map((fileName, index) => {
         return {
-          title:
-            folderName.trim().toLowerCase().replaceAll(" ", "-") +
-            "-" +
-            (index + 1),
+          // title:
+          //   folderName.trim().toLowerCase().replaceAll(" ", "-") +
+          //   "-" +
+          //   (index + 1),
+          title: `image ${index + 1}`,
           path: fileName,
         };
       }),
@@ -98,7 +103,7 @@ for (let folderPath of folderNames) {
       popular: false,
       shopPrice: 0,
       isInStock: true,
-      category: 'Flowers',
+      category: "Flowers",
     };
   }
 
@@ -109,7 +114,7 @@ for (let folderPath of folderNames) {
 const content = JSON.stringify(imgJson, null, 1);
 
 try {
-  fs.writeFileSync("./src/data/item-metadata.json", content);
+  fs.writeFileSync("./src/data/item-metadata.en.json", content);
 } catch (err) {
   console.error(err);
 }

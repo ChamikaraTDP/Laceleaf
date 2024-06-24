@@ -1,5 +1,5 @@
 import ItemDetailCard from "../../../../components/ItemDetailCard";
-import items from "../../../../data/item-metadata.json";
+import items from "../../../../data/item-metadata.en.json";
 import { getHomeData } from "../../../../dictionaries";
 import { Locale } from "../../../../types/common";
 

@@ -68,6 +68,7 @@ export interface ShopItem {
   id: string;
   title: string;
   description: string;
+  altDesc?: string;
   images: ItemImage[];
   shopImagePath: string;
   shopPrice: number;

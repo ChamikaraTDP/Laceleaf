@@ -44,8 +44,8 @@ export default function ContactUs({
 
         <div className="absolute top-2 left-2 xl:top-5 xl:left-5 w-[98%] h-[200px] sm:w-[270px] sm:h-[350px] 2xl:w-[400px] 2xl:h-[516px]">
           <Image
-            alt="contact-image"
-            src={"/images/contact/IMG_0130-mkd.JPG"}
+            alt="Red anthurium close up image"
+            src={"/images/contact/Red-Giant-anthurium.JPG"}
             fill
             style={{ objectFit: 'cover' }}
             sizes="(min-width: 650px) 270px, (min-width: 1536px) 400px, 100vw"

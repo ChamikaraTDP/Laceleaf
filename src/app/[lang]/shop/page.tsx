@@ -1,5 +1,5 @@
 import ItemGroupCard from "../../../components/ItemGroupCard";
-import items from "../../../data/item-metadata.json";
+import items from "../../../data/item-metadata.en.json";
 import { getDictionary, getHomeData } from "../../../dictionaries";
 import { Locale } from "../../../types/common";
 

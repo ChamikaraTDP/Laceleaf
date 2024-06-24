@@ -4,6 +4,7 @@ import "./custom.slider.css";
 
 type ImageMetaData = {
   title: string;
+  altText: string;
   subTitle: string;
   path: string;
   position: string;
@@ -18,7 +19,7 @@ export default function AnnotatedImage({ imgMeta }: AnnotatedImageProps) {
     <div className="h-full w-full relative">
       <Image
         src={imgMeta.path}
-        alt={imgMeta.title}
+        alt={imgMeta.altText}
         fill={true}
         style={{ objectFit: "cover" }}
       />
