@@ -10,7 +10,7 @@ import Footer from "@components/home/Footer";
 
 export const metadata: Metadata = {
   title: "Sujatha's Anthurium | Florist Sri Lanka | Anthurium Flowers & Plants",
-  description: "Healthly, beautiful anthurium flowers & plants for affordable price",
+  description: "Healthly, beautiful anthurium plants & flowers for affordable price",
 };
 
 export async function generateStaticParams() {
@@ -33,9 +33,9 @@ export default async function RootLayout({
   return (
     <html lang={params.lang}>
       <head>
-        <link rel="alternate" href="https://sujathasanthurium.com/en" hrefLang="en" />
-        <link rel="alternate" href="https://sujathasanthurium.com/si" hrefLang="si" />
-        <link rel="alternate" href="https://sujathasanthurium.com/en" hrefLang="x-default" />
+        <link rel="alternate" href={`${process.env.BASE_URL}/en`} hrefLang="en" />
+        <link rel="alternate" href={`${process.env.BASE_URL}/si`} hrefLang="si" />
+        <link rel="alternate" href={`${process.env.BASE_URL}/en`} hrefLang="x-default" />
       </head>
       <body
         className={`${primaryFont.className} grid grid-cols-12 text-gray-800`}
