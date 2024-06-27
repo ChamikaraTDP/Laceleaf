@@ -10,7 +10,7 @@ type ItemCardProps = {
 
 function ItemCard({ item, lang, homeData  }: ItemCardProps) {
   return (
-    <Link href={`/${lang}/item/${item.id}`} className="relative w-[150px] sm:w-[200px] hover:shadow-md hover:shadow-red-200 cursor-pointer">
+    <Link href={`/${lang}/items/plants/${item.id}`} className="relative w-[150px] sm:w-[200px] hover:shadow-md hover:shadow-red-200 cursor-pointer">
 
       {/* todo: revamp sizes */}
       <div className="relative w-[150px] h-[160px] sm:w-[200px] sm:h-[200px]">

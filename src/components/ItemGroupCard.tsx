@@ -11,12 +11,12 @@ interface ItemGroupCardProps {
 
 function ItemGroupCard({ title, items, lang, homeData }: ItemGroupCardProps) {
   return (
-    <div className="py-10">
+    <div className="py-5 sm:py-10">
       <div className="flex justify-between">
         <TitleCard title={title} subTitle="" lang={lang} />
       </div>
 
-      <div className="flex flex-wrap mt-20 gap-x-8 gap-y-20">
+      <div className="flex flex-wrap justify-center mt-5 sm:mt-20 gap-x-5 sm:gap-x-8 gap-y-8 sm:gap-y-20">
         {items.map((itm) => (
           <ItemCard homeData={homeData} key={itm.id} item={itm} lang={lang} />
         ))}

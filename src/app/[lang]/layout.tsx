@@ -40,7 +40,7 @@ export default async function RootLayout({
       <body
         className={`${primaryFont.className} grid grid-cols-12 text-gray-800`}
       >
-        <div className="col-span-12 lg:col-span-2">
+        <div className="col-span-12 xl:col-span-2">
           <Suspense fallback={<SidebarSkeleton />}>
             <Sidebar
               homeData={homeData}
@@ -50,7 +50,7 @@ export default async function RootLayout({
           </Suspense>
         </div>
 
-        <div className="col-span-12 lg:col-span-10 h-screen overflow-auto">
+        <div className="col-span-12 xl:col-span-10 h-screen overflow-auto">
           {children}
 
           {/* footer */}

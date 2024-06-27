@@ -1,8 +1,8 @@
-import ItemDetailCard from "../../../../components/ItemDetailCard";
-import items from "../../../../data/item-metadata.en.json";
-import { getDictionary, getHomeData, getItemData } from "../../../../dictionaries";
-import { Locale } from "../../../../types/common";
-import { getSecondaryFont, getTertiaryFont } from "../../../fonts";
+import ItemDetailCard from "@components/ItemDetailCard";
+import items from "@/data/item-metadata.en.json";
+import { getDictionary, getHomeData, getItemData } from "@/dictionaries";
+import { Locale } from "@/types/common";
+import { getSecondaryFont, getTertiaryFont } from "@app/fonts";
 
 export async function generateStaticParams() {
   return Object.keys(items).map((itemKey) => ({

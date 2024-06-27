@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { inter } from "../../app/fonts";
 
 type FooterProps = {
   lang?: string;
@@ -9,8 +10,8 @@ function Footer({ homeData }: FooterProps) {
   return (
     <div className="py-4 bg-bg-primary min-h-[150px] flex flex-col sm:flex-row justify-around items-center">
       <div className="order-2 sm:order-1 text-center sm:text-start mt-8">
-        <div className="mb-1 lg:mb-4 text-sm sm:text-base">{homeData.telNo}</div>
-        <div className="mb-1 lg:mb-4 text-sm sm:text-base">{homeData.email}</div>
+        <div className={`mb-1 lg:mb-4 text-sm sm:text-base ${inter.className}`}>{homeData.telNo}</div>
+        <div className={`mb-1 lg:mb-4 text-sm sm:text-base ${inter.className}`}>{homeData.email}</div>
         <div className="mb-1 lg:mb-4 text-sm sm:text-base">{homeData.address}</div>
       </div>
 

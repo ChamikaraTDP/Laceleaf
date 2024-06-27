@@ -152,7 +152,7 @@ function CustomCarousel({
               {thumbnails.map((item: any, index: number) => {
                 return (
                   <div
-                    className={`inline-block  w-[128px] h-[128px] relative overflow-hidden border-4 cursor-pointer mr-4 ${
+                    className={`inline-block w-[100px] h-[100px] xl:w-[128px] xl:h-[128px] relative overflow-hidden border-4 cursor-pointer mr-4 ${
                       activeIndex === index
                         ? "border-focus-primary"
                         : "border-transparent"

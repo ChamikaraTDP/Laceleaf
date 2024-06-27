@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import items from "@/data/item-metadata.en.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const itemPaths = Object.keys(items).map((val) => "item/" + val);
+  const itemPaths = Object.keys(items).map((val) => "items/plants/" + val);
   const paths = ["", "shop", ...itemPaths];
 
   // TODO:: use locale enum after adding tamil lang support

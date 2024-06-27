@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import debounce from "lodash.debounce";
 import { Locale } from "../types/common";
 import { useState } from "react";
+import { abhaya, inter } from "../app/fonts";
 
 type SidbarProps = {
   lang: string;
@@ -32,17 +33,17 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
 
   return (
     <div
-      className={`sm:pl-10 ${
+      className={`sm:pl-10 xl:pl-5 2xl:pl-10 ${
         isExpanded ? "h-auto" : "h-[85px] sm:h-[100px]"
-      } lg:h-screen w-full overflow-hidden lg:overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200`}
+      } xl:h-screen w-full overflow-hidden xl:overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200`}
     >
       <div className="text-sm flex justify-end gap-4 pt-1 pr-4">
-        <Link className="hover:underline" href={"/en"}>English</Link>
-        <Link className="hover:underline" href={"/si"}>සිංහල</Link>
+        <Link className={`hover:underline ${inter.className}`} href={"/en"}>English</Link>
+        <Link className={`hover:underline ${abhaya.className}`} href={"/si"}>සිංහල</Link>
       </div>
 
-      <div className="lg:pt-3 pb-5 relative flex justify-center lg:justify-start">
-        <div className="hidden sm:flex lg:hidden absolute left-0 top-5">
+      <div className="xl:pt-3 pb-5 relative flex justify-center xl:justify-start">
+        <div className="hidden sm:flex xl:hidden absolute left-0 top-5">
           <Image
             src="/icons/phone.svg"
             alt="phone icon"
@@ -53,7 +54,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
           <h2>{homeData.telNo}</h2>
         </div>
 
-        <div className="relative w-[108px] h-[40px] sm:w-[140px] sm:h-[52px] lg:w-[172px] lg:h-[64px] object-contain">
+        <div className="shrink-0 relative w-[108px] h-[40px] sm:w-[140px] sm:h-[52px] lg:w-[172px] lg:h-[64px] object-contain">
           <Link href={`/${lang}`} className="cursor-pointer">
             <Image
               alt="Sujatha's Anthurium Title Image, shows the brand logo"
@@ -65,19 +66,19 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         </div>
 
         <div
-          className="lg:hidden absolute right-10 top-5 cursor-pointer"
+          className="xl:hidden absolute right-10 top-5 cursor-pointer"
           onClick={() => setIsExpanded((prev) => !prev)}
         >
           <Image
             alt="Expand Icon"
-            src={"/icons/expand-more.svg"}
-            width={24}
-            height={24}
+            src={"/icons/menu.svg"}
+            width={28}
+            height={28}
           />
         </div>
       </div>
 
-      <div className="pl-10 lg:pl-0 py-2 pr-10">
+      <div className="pl-10 xl:pl-0 py-2 pr-10">
         <div className="flex border-b border-solid border-slate-300 justify-between p-1">
           <input
             className="outline-none bg-transparent w-16 grow basis-16"
@@ -97,8 +98,8 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         </div>
       </div>
 
-      <div className="flex flex-col grow justify-start lg:justify-between">
-        <div className="mt-7 text-center lg:text-start">
+      <div className="flex flex-col grow justify-start xl:justify-between">
+        <div className="mt-7 text-center xl:text-start">
           {titles.map((ttl: string) => {
             return (
               <Link
@@ -119,7 +120,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         </div>
 
         <div className="mt-2 flex flex-col">
-          <div className="basis-32 shrink-1 text-center lg:text-start">
+          <div className="basis-32 shrink-1 text-center xl:text-start">
             {subTitles.map((ttl) => {
               return (
                 <Link
@@ -140,29 +141,29 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
             })}
           </div>
 
-          <div className="pt-5 pb-10">
-            <div className="flex justify-center lg:justify-start pb-2">
+          <div className={`pt-5 pb-10 ${inter.className}`}>
+            <div className="flex justify-center xl:justify-start pb-2">
               <Image
                 src="/icons/phone.svg"
                 alt="phone icon"
-                width={30}
-                height={30}
-                className="pr-2"
+                width={24}
+                height={24}
+                className="pr-2 hidden 2xl:block"
               />
               <h2>{homeData.telNo}</h2>
             </div>
 
             <div>
               <a
-                className="flex text-sm justify-center lg:justify-start pb-2 hover:text-txt-hover"
+                className="flex text-sm justify-center xl:justify-start pb-2 hover:text-txt-hover"
                 href={`mailto:${homeData.email}`}
               >
                 <Image
                   src="/icons/mail.svg"
                   alt="email icon"
-                  width={30}
-                  height={30}
-                  className="pr-2"
+                  width={24}
+                  height={24}
+                  className="pr-2  hidden 2xl:block"
                 />
                 {homeData.email}
               </a>
