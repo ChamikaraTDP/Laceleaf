@@ -1,8 +1,8 @@
 import Image from "next/image";
 import ImageCarousel from "./carousel/ImageCarousel";
-import { prata, roboto } from "../app/fonts";
 import Link from "next/link";
 import { Locale, ShopItem } from "../types/common";
+import { NextFont } from "next/dist/compiled/@next/font";
 
 type ItemDetailCardProps = {
   item: ShopItem;
@@ -10,6 +10,9 @@ type ItemDetailCardProps = {
   previousItemKey: string;
   lang: Locale;
   homeData: any;
+  dictionary: any;
+  secondaryFont: NextFont;
+  tertiaryFont: NextFont;
 };
 
 export default function ItemDetailCard({
@@ -18,6 +21,9 @@ export default function ItemDetailCard({
   previousItemKey,
   lang,
   homeData,
+  dictionary,
+  secondaryFont,
+  tertiaryFont,
 }: ItemDetailCardProps) {
   return (
     <div className="min-h-screen w-full flex">
@@ -25,7 +31,7 @@ export default function ItemDetailCard({
         <ImageCarousel
           images={item.images.map((img) => ({
             ...img,
-            altText: `${item.altDesc} ${img.title}`
+            altText: `${item.altDesc} ${img.title}`,
           }))}
           showThumbnail
           autoSlide={false}
@@ -39,11 +45,11 @@ export default function ItemDetailCard({
           >
             <Image
               src="/icons/back.svg"
-              alt="Go back icon"
+              alt="Arrow pointing to left"
               width={28}
               height={20}
             />
-            Go Back
+            {dictionary.goBack}
           </Link>
         </div>
       </div>
@@ -56,7 +62,7 @@ export default function ItemDetailCard({
           >
             <Image
               src="/icons/previous-black.svg"
-              alt="previous icon"
+              alt="Arrow head pointing to left"
               width={20}
               height={24}
               className="h-6"
@@ -69,7 +75,7 @@ export default function ItemDetailCard({
           >
             <Image
               src="/icons/next-black.svg"
-              alt="next icon"
+              alt="Arrow head pointing to right"
               width={20}
               height={24}
               className="h-6"
@@ -79,90 +85,106 @@ export default function ItemDetailCard({
 
         <div className="flex justify-center items-center pt-6">
           <div
-            className={`${prata.className} text-2xl font-bold text-slate-800`}
+            className={`${tertiaryFont.className} text-2xl font-bold text-slate-800`}
           >
             {item.title}
           </div>
         </div>
 
-        <p className={`${roboto.className} text-base/5 p-4 text-slate-700`}>
+        <p
+          className={`${secondaryFont.className} text-base/5 p-4 text-slate-700`}
+        >
           {item.description}
         </p>
 
         <div className="p-4">
-          <h4 className="text-lg text-center">Anatomy</h4>
+          <h4 className={`${lang === 'en' ? 'text-lg' : 'text-xl'} text-center`}>{dictionary.anatomy}</h4>
 
-          <table className="w-full text-sm">
+          <table className={`w-full ${lang === 'en' ? 'text-sm' : 'text-base'}`}>
             <thead>
               <tr className="bg-bg-default">
-                <th className="text-left pl-2">Characteristic</th>
-                <th className="text-left pl-2">Value</th>
+                <th className="text-left pl-2">{dictionary.characteristic}</th>
+                <th className="text-left pl-2">{dictionary.value}</th>
               </tr>
             </thead>
             <tbody>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spathe Color</td>
+                <td className="py-1 pl-2">{dictionary.spatheColor}</td>
                 <td className="py-1 pl-2">
                   {item.anatomy?.spathe.color.join(", ")}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spadix Color</td>
+                <td className="py-1 pl-2">{dictionary.spadixColor}</td>
                 <td className="py-1 pl-2">
                   {item.anatomy?.spadix.color.join(", ")}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spathe Shape</td>
+                <td className="py-1 pl-2">{dictionary.spatheShape}</td>
                 <td className="py-1 pl-2">{item.anatomy?.spathe.shape}</td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Plant Height</td>
+                <td className="py-1 pl-2">{dictionary.plantHeight}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.tree["hight-min"]}-
-                  {item.anatomy?.tree["hight-max"]} inch
+                  {item.anatomy?.tree["hight-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Plant Spread</td>
+                <td className="py-1 pl-2">{dictionary.plantSpread}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.tree["width-min"]}-
-                  {item.anatomy?.tree["width-max"]} inch
+                  {item.anatomy?.tree["width-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spathe Length</td>
+                <td className="py-1 pl-2">{dictionary.spatheLength}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.spathe["length-min"]}-
-                  {item.anatomy?.spathe["length-max"]} inch
+                  {item.anatomy?.spathe["length-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spathe Width</td>
+                <td className="py-1 pl-2">{dictionary.spatheWidth}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.spathe["width-min"]}-
-                  {item.anatomy?.spathe["width-max"]} inch
+                  {item.anatomy?.spathe["width-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Spadix Length</td>
+                <td className="py-1 pl-2">{dictionary.spadixLength}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.spadix["length-old-min"]}-
-                  {item.anatomy?.spadix["length-old-max"]} inch
+                  {item.anatomy?.spadix["length-old-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Leaf Length</td>
+                <td className="py-1 pl-2">{dictionary.leafLength}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.leaf["length-min"]}-
-                  {item.anatomy?.leaf["length-max"]} inch
+                  {item.anatomy?.leaf["length-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
               <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Leaf Width</td>
+                <td className="py-1 pl-2">{dictionary.leafWidth}</td>
                 <td className="py-1 pl-2">
+                  {lang === "si" && dictionary.inch}{" "}
                   {item.anatomy?.leaf["width-min"]}-
-                  {item.anatomy?.leaf["width-max"]} inch
+                  {item.anatomy?.leaf["width-max"]}{" "}
+                  {lang === "en" && dictionary.inch}
                 </td>
               </tr>
             </tbody>
@@ -170,30 +192,30 @@ export default function ItemDetailCard({
         </div>
 
         <div className="p-4">
-          <h4 className="text-lg text-center">Prices</h4>
+          <h4 className={`${lang === 'en' ? 'text-lg' : 'text-xl'} text-center`}>{dictionary.prices}</h4>
 
-          <table className="w-full text-sm">
+          <table className={`w-full ${lang === 'en' ? 'text-sm' : 'text-base'}`}>
             <thead>
               <tr className="bg-bg-default">
-                <th className="text-left pl-2">Size</th>
-                <th className="text-left pl-2">Price</th>
+                <th className="text-left pl-2">{dictionary.size}</th>
+                <th className="text-left pl-2">{dictionary.price}</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Small Plants</td>
+              <tr className="text-nowrap border-b border-bg-primary">
+                <td className="py-1 pl-2">{dictionary.smallPlants}</td>
                 <td className="py-1 pl-2">250 /=</td>
               </tr>
-              <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Medium Plants</td>
+              <tr className="text-nowrap border-b border-bg-primary">
+                <td className="py-1 pl-2">{dictionary.mediumPlants}</td>
                 <td className="py-1 pl-2">450 /=</td>
               </tr>
-              <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Mother Plants</td>
+              <tr className="text-nowrap border-b border-bg-primary">
+                <td className="py-1 pl-2">{dictionary.motherPlants}</td>
                 <td className="py-1 pl-2">750 /=</td>
               </tr>
-              <tr className="border-b border-bg-primary">
-                <td className="py-1 pl-2">Bushes</td>
+              <tr className="text-nowrap border-b border-bg-primary">
+                <td className="py-1 pl-2">{dictionary.bushes}</td>
                 <td className="py-1 pl-2">1250 /=</td>
               </tr>
             </tbody>
@@ -201,30 +223,25 @@ export default function ItemDetailCard({
         </div>
 
         <div className="p-4">
-          <h4 className="text-center">Size Description</h4>
+          <h4 className={`${lang === 'en' ? 'text-lg' : 'text-xl'} text-center`}>{dictionary.sizeDescription}</h4>
 
-          <table className="w-full text-sm">
+          <table className={`w-full ${lang === 'en' ? 'text-sm' : 'text-base'}`}>
             <tbody>
               <tr className="border-b">
-                <td className="pl-2">Small&nbsp;Plants</td>
-                <td className="pl-2">3-5 inch , without flowers</td>
+                <td className="pl-2 text-nowrap">{dictionary.smallPlants}</td>
+                <td className="pl-2">{homeData.smallPlantsDesc}</td>
               </tr>
               <tr className="border-b">
-                <td className="pl-2">Medium&nbsp;Plants</td>
-                <td className="pl-2">4-6 inch , with flowers</td>
+                <td className="pl-2 text-nowrap">{dictionary.mediumPlants}</td>
+                <td className="pl-2">{homeData.mediumPlantsDesc}</td>
               </tr>
               <tr className="border-b">
-                <td className="pl-2">Mother&nbsp;Plants</td>
-                <td className="pl-2">
-                  7-36 inch, with flowers, Plant size vary based on variety
-                </td>
+                <td className="pl-2 text-nowrap">{dictionary.motherPlants}</td>
+                <td className="pl-2">{homeData.motherPlantsDesc}</td>
               </tr>
               <tr className="border-b">
-                <td className="pl-2">Bushes</td>
-                <td className="pl-2">
-                  More than one Plant, (7 - 36) inch, with flowers, Plant size
-                  vary based on variety
-                </td>
+                <td className="pl-2 text-nowrap">{dictionary.bushes}</td>
+                <td className="pl-2">{homeData.bushesDesc}</td>
               </tr>
             </tbody>
           </table>

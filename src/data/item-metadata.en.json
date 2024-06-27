@@ -25,8 +25,8 @@
     "shopImagePath": "/images/shop/Alexia-Purple/anthurium-Alexia-Purple-1.JPG",
     "anatomy": {
       "spadix": {
-        "color": ["dark-purple"],
-        "color-old": ["dark-purple"],
+        "color": ["dark purple"],
+        "color-old": ["dark purple"],
         "length-min": 1,
         "length-max": 1.75,
         "length-old-min": 0,
@@ -40,7 +40,7 @@
         "length-max": 6,
         "width-min": 0,
         "width-max": 0,
-        "shape": "lengthy",
+        "shape": "linear",
         "vains": "",
         "other": "gets greener with age"
       },
@@ -52,7 +52,7 @@
         "other": "dense tree filled with leaves and flowers, hight is relatively low"
       },
       "leaf": {
-        "shape": "lengthy",
+        "shape": "linear",
         "length-min": 7,
         "length-max": 8.5,
         "width-min": 0,
@@ -77,7 +77,7 @@
     "popular": true,
     "shopPrice": 300,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Baby-Purple": {
     "id": "Baby-Purple",
@@ -112,7 +112,7 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Butterfly-Orange": {
     "id": "Butterfly-Orange",
@@ -200,7 +200,7 @@
     "popular": true,
     "shopPrice": 200,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Coca-Cola": {
     "id": "Coca-Cola",
@@ -218,7 +218,7 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Jolly": {
     "id": "Jolly",
@@ -265,7 +265,7 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Misuri-Orange": {
     "id": "Misuri-Orange",
@@ -292,7 +292,7 @@
     "popular": true,
     "shopPrice": 200,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Panedola": {
     "id": "Panedola",
@@ -404,7 +404,7 @@
     "popular": true,
     "shopPrice": 300,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Pink-Correl": {
     "id": "Pink-Correl",
@@ -473,7 +473,7 @@
     "popular": true,
     "shopPrice": 300,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Pink-Me": {
     "id": "Pink-Me",
@@ -508,7 +508,7 @@
     "popular": true,
     "shopPrice": 200,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Pink-Ribbon": {
     "id": "Pink-Ribbon",
@@ -555,7 +555,7 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Red-Giant": {
     "id": "Red-Giant",
@@ -651,7 +651,7 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "White-Beauty": {
     "id": "White-Beauty",
@@ -703,10 +703,10 @@
     "shopImagePath": "/images/shop/White-Beauty/anthurium-White-Beauty-1.JPG",
     "anatomy": {
       "spadix": {
-        "color": ["pale-purple"],
+        "color": ["pale purple"],
         "length-min": 0.5,
         "length-max": 1.5,
-        "color-old": ["pale-purple"],
+        "color-old": ["pale purple"],
         "length-old-min": 1,
         "length-old-max": 1.25,
         "other": ""
@@ -755,6 +755,6 @@
     "popular": true,
     "shopPrice": 250,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   }
 }

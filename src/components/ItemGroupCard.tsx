@@ -5,10 +5,11 @@ import { Locale, ShopItem } from "../types/common";
 interface ItemGroupCardProps {
   title: string;
   items: ShopItem[];
-  lang: Locale,
+  lang: Locale;
+  homeData: any;
 }
 
-function ItemGroupCard({ title, items, lang }: ItemGroupCardProps) {
+function ItemGroupCard({ title, items, lang, homeData }: ItemGroupCardProps) {
   return (
     <div className="py-10">
       <div className="flex justify-between">
@@ -17,7 +18,7 @@ function ItemGroupCard({ title, items, lang }: ItemGroupCardProps) {
 
       <div className="flex flex-wrap mt-20 gap-x-8 gap-y-20">
         {items.map((itm) => (
-          <ItemCard key={itm.id} item={itm} lang={lang} />
+          <ItemCard homeData={homeData} key={itm.id} item={itm} lang={lang} />
         ))}
       </div>
     </div>

@@ -36,9 +36,9 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
         isExpanded ? "h-auto" : "h-[85px] sm:h-[100px]"
       } lg:h-screen w-full overflow-hidden lg:overflow-auto bg-bg-sidebar flex flex-col border-r border-slate-200`}
     >
-      <div className="text-sm flex justify-end gap-4 pt-2 pr-4">
-        <Link href={"/en"}>En</Link>
-        <Link href={"/si"}>සිං</Link>
+      <div className="text-sm flex justify-end gap-4 pt-1 pr-4">
+        <Link className="hover:underline" href={"/en"}>English</Link>
+        <Link className="hover:underline" href={"/si"}>සිංහල</Link>
       </div>
 
       <div className="lg:pt-3 pb-5 relative flex justify-center lg:justify-start">
@@ -154,7 +154,7 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
 
             <div>
               <a
-                className="flex justify-center lg:justify-start pb-2 hover:text-txt-hover"
+                className="flex text-sm justify-center lg:justify-start pb-2 hover:text-txt-hover"
                 href={`mailto:${homeData.email}`}
               >
                 <Image

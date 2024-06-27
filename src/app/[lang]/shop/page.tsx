@@ -1,10 +1,7 @@
 import ItemGroupCard from "../../../components/ItemGroupCard";
-import items from "../../../data/item-metadata.en.json";
-import { getDictionary, getHomeData } from "../../../dictionaries";
+import { getDictionary, getHomeData, getItemData } from "../../../dictionaries";
 import { Locale } from "../../../types/common";
 
-const itemsArr = Object.values(items);
-const popularItems = itemsArr.filter((item) => item.popular);
 
 async function Shop(
   {
@@ -19,6 +16,10 @@ async function Shop(
 ) {
   const homeData = await getHomeData(params.lang);
   const dictionary = await getDictionary(params.lang);
+  const itemsLocale = await getItemData(params.lang);
+
+  const itemsArr = Object.values(itemsLocale);
+  const popularItems = itemsArr.filter((item) => item.popular);
 
   const query = searchParams?.query || '';
   const regx = new RegExp(query, 'i');
@@ -26,7 +27,7 @@ async function Shop(
   
   return (
     <div className="bg-bg-default min-h-screen py-20 px-20">
-      <ItemGroupCard lang={params.lang} title={ dictionary.popular} items={queriedPopular} />
+      <ItemGroupCard homeData={homeData} lang={params.lang} title={dictionary.popular} items={queriedPopular} />
 
       {homeData.categories.map((category) => {
         const groupItems = itemsArr.filter((item) => {
@@ -34,7 +35,7 @@ async function Shop(
         });
 
         return (
-          <ItemGroupCard lang={params.lang} key={category} title={category} items={groupItems} />
+          <ItemGroupCard homeData={homeData} lang={params.lang} key={category} title={category} items={groupItems} />
         );
       })}
     </div>

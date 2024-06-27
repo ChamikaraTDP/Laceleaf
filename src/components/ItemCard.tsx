@@ -4,10 +4,11 @@ import { Locale, ShopItem } from "../types/common";
 
 type ItemCardProps = {
   item: ShopItem;
-  lang: Locale
+  lang: Locale;
+  homeData: any;
 };
 
-function ItemCard({ item, lang  }: ItemCardProps) {
+function ItemCard({ item, lang, homeData  }: ItemCardProps) {
   return (
     <Link href={`/${lang}/item/${item.id}`} className="relative w-[150px] sm:w-[200px] hover:shadow-md hover:shadow-red-200 cursor-pointer">
 
@@ -34,13 +35,13 @@ function ItemCard({ item, lang  }: ItemCardProps) {
       )}
 
       <div className="bg-bg-shop-title">
-        <div className="font-bold sm:text-lg text-center text-wrap text-slate-700">
+        <div className={`font-bold sm:${lang === 'en' ? 'text-lg' : 'text-xl'} text-center text-wrap text-slate-700`}>
           {item.title}
         </div>
       </div>
 
       <div className="bg-slate-100">
-        <div className="text-center text-sm sm:text-base">Rs. {item.shopPrice} /=</div>
+        <div className={`text-center text-sm sm:${lang === 'en' ? 'text-base' : 'text-lg'}`}>{homeData.currency} {item.shopPrice} /=</div>
       </div>
     </Link>
   );

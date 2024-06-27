@@ -3,14 +3,12 @@ import CustomCarousel from "@components/carousel/CustomCarousel";
 import AnnotatedImage from "@components/carousel/AnnotatedImage";
 import TitleCard from "@components/TitleCard";
 import Link from "next/link";
-import items from "@/data/item-metadata.en.json";
 import ItemCard from "@components/ItemCard";
 import ExpandableDesc from "@components/ExpandableDesc";
-import { getDictionary, getFaq, getHomeData } from "@/dictionaries";
+import { getDictionary, getFaq, getHomeData, getItemData } from "@/dictionaries";
 import { Locale } from "@/types/common";
 import { getSecondaryFont, getTertiaryFont } from "@app/fonts";
 
-const itemsArr = Object.values(items).filter((item) => item.popular);
 
 export default async function Home({ params }: { params: { lang: Locale } }) {
   const homeData = await getHomeData(params.lang);
@@ -18,6 +16,9 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
   const questions = await getFaq(params.lang);
   const secondaryFont = getSecondaryFont(params.lang);
   const tertiaryFont = getTertiaryFont(params.lang);
+  const items = await getItemData(params.lang);
+
+  const itemsArr = Object.values(items).filter((item) => item.popular);
 
   return (
     <main className="bg-bg-default">
@@ -51,7 +52,7 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
 
         <div className="flex flex-wrap mt-10 sm:mt-20 gap-x-5 sm:gap-x-8 gap-y-10 sm:gap-y-20 justify-center ">
           {itemsArr.map((itm) => (
-            <ItemCard lang={params.lang} key={itm.id} item={itm} />
+            <ItemCard homeData={homeData} lang={params.lang} key={itm.id} item={itm} />
           ))}
         </div>
       </div>

@@ -4,11 +4,10 @@ import { Locale } from './types/common';
 const dictionaries = {
   [Locale.en]: () => import('./dictionaries/en.json').then((module) => module.default),
   [Locale.si]: () => import('./dictionaries/si.json').then((module) => module.default),
-  [Locale.ta]: () => import('./dictionaries/si.json').then((module) => module.default),
+  [Locale.ta]: () => import('./dictionaries/ta.json').then((module) => module.default),
 }
 
 export const getDictionary = async (locale: Locale) => dictionaries[locale]();
-
 
 const homeData = {
   [Locale.en]: () => import('./data/home-data.en.json').then((module) => module.default),
@@ -29,3 +28,13 @@ const faq = {
 export const getFaq = (locale: Locale) => {
   return faq[locale]();
 };
+
+const itemData = {
+  [Locale.en]: () => import('./data/item-metadata.en.json').then((module) => module.default),
+  [Locale.si]: () => import('./data/item-metadata.si.json').then((module) => module.default),
+  [Locale.ta]: () => import('./data/item-metadata.ta.json').then((module) => module.default), 
+}
+
+export const getItemData = (locale: Locale) => {
+  return itemData[locale]();
+}

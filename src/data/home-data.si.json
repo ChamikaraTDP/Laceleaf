@@ -5,21 +5,21 @@
       "subTitle": "ජීවිතය ලස්සණ කරන්න",
       "path": "/images/slider/Red-anthurium-large.jpg",
       "position": "img-text-top-right",
-      "altText": "Red anthurium flowers"
+      "altText": "රතු ඇන්තූරියම් මල්"
     },
     {
       "title": "ගෙවත්ත",
       "subTitle": "ඔබේම කරගන්න",
       "path": "/images/slider/Anthurium-garden.JPG",
       "position": "img-text-bottom-right",
-      "altText": "Garden with multiple anthurium plants"
+      "altText": "ඇන්තූරියම් පැල සහිත වත්ත"
     },
     {
       "title": "මල් පැල",
       "subTitle": "ආදරයෙන් ඔබ වෙතට",
       "path": "/images/slider/Anthurium-plants.JPG",
       "position": "img-text-top-right",
-      "altText": "Vivid color anthurium plants"
+      "altText": "විචිත්‍රවත් ඇන්තූරියම් පැල"
     }
   ],
   "shopTitle": "ප්‍රියතම",
@@ -29,12 +29,17 @@
   "aboutUsDescription": "Sujatha's Anthurium හි අප අවුරුදු 30 කට අධික කාලයක් මුළුල්ලේ කෘෂිකර්මය හා මල් පැල වගාව පුරුදු පුහුණු වන අතර ඇන්තූරියම් වගා රැකබලාගැනීම හා ඒ පිළිබඳ ඉගැන්වීම පිළිබඳ විශේෂ ඇල්මක් හා දක්ෂතාවක් දක්වන්නෙමු. අවුරුද්ද මුළුල්ලේම මල් සහ පැල නීරෝගීව  තබා ගැනීමට වෙහෙසෙන අප එයින් විශාල සතුටක් හා තෘප්තියක් ලබන්නෙමු. සැමවිටම අපගේ දැනුම හා පළපුරුද්ද ඔබ හා බෙදා හදා ගැනීමට සැදී පැහැදී සිටින්නෙමු. ඉතින් එන්න, ඇන්තූරියම් මල් වලින් ඔබගේ ගෙවත්ත අලංකාර කරගන්න අප හා එක්වන්න.",
   "contactUsTitle": "අමතන්න",
   "contactUsSubTitle": "අප හා සම්බන්දවන්න",
-  "contactUsDescripton": "වැඩමුළුවක්, මංගල උත්සවයක්  හෝ වෙනත් විශේෂ අවසත්තාවක් සඳහා මල් අවශ්‍යද? ඔබේ අවශ්‍යතාව දැන්ම අපට දන්වන්න.",
+  "contactUsDescripton": "වැඩමුළුවක්, මංගල උත්සවයක් හෝ වෙනත් විශේෂ අවසත්තාවක් සඳහා මල් අවශ්‍යද? ඔබේ අවශ්‍යතාව දැන්ම අපට දන්වන්න.",
   "contactUsFormTitle": "ඔබේ පණිවිඩය එවන්න",
   "faqTitle": "නි.අ.ප්‍ර",
   "faqSubTitle": "නිතර අසන ප්‍රශ්න",
   "telNo": "071 1788728",
   "email": "sujathasanthurium@gmail.com",
   "address": "නො. 41, රෙමුණගොඩ, කළුතර ",
-  "categories": ["මල්", "මල් පැල"]
+  "categories": ["මල්", "මල් පැල"],
+  "smallPlantsDesc": "උස අඟල් 3-5 අතර, මල් රහිත",
+  "mediumPlantsDesc": "උස අඟල් 4-6 අතර, මල් සහිත",
+  "motherPlantsDesc": "උස අඟල් 7-36 අතර, මල් සහිත, පැලයේ ප්‍රමාණය ප්‍රභේදය අනුව වෙනස් වේ",
+  "bushesDesc": "පැල එකකට වඩා ඇත, උස අඟල් 7-36 අතර, මල් සහිත, පැලයේ ප්‍රමාණය ප්‍රභේදය අනුව වෙනස් වේ",
+  "currency": "රු."
 }

@@ -1,6 +1,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
+// TODO:: update for other languages
+
+
 const base = "./public/images/shop";
 
 // utils
