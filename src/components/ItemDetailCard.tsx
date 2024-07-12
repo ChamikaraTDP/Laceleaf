@@ -240,7 +240,7 @@ export default function ItemDetailCard({
           </div>
         </div>
 
-        <div className="p-4 md:px-10">
+        <div className="p-4 md:px-10 2xl:px-4">
           <h4
             className={`${lang === "en" ? "text-lg" : "text-xl"} text-center`}
           >
