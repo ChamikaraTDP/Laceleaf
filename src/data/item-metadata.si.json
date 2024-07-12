@@ -2,7 +2,7 @@
   "Alexia-Purple": {
     "id": "Alexia-Purple",
     "title": "ඇලේක්සියා පර්පල්",
-    "description": "දිගු දලපත්‍රයකින් යුතු මලකි. සුදු පැහැ දල පත්‍රයේ රෝස පැහැ අතිරුමකින් යුක්තය. නාරටි තද රෝස පැහැතිය. මල් කෙමිය තද දම් පැහැතිය. මල පරණ වන විට රෝස සුදු හා කොළ මිශ්‍ර පැහැයකට හැරේ.",
+    "description": "දිගු දලපත්‍රයකින් යුතු මලකි. සුදු පැහැ දලපත්‍රයේ රෝස පැහැ ඇතිරුමක් යුක්තය. නාරටි තද රෝස පැහැතිය. මල් කෙමිය තද දම් පැහැතිය. මල පරණ වන විට රෝස සුදු හා කොළ මිශ්‍ර පැහැයකට හැරේ.",
     "altDesc": "ඇලේක්සියා පර්පල් ඇනතුරියම් විශේෂය. සුදු රෝස පැහැ මලකි. කෙමිය තද දම් පැහැතිය.",
     "images": [
       {
@@ -82,7 +82,52 @@
   "Baby-Purple": {
     "id": "Baby-Purple",
     "title": "බේබි පර්පල්",
-    "description": "",
+    "description": "දම් පැහැ, කුඩා ඕවලාකාර මලක් හට ගන්නා ඇන්තූරියම් විශේෂයකි. දම් පැහැ මල කල් ගත වීමේදී තරමක් ලා පැහැයකට හැරේ. කලංකය තද දම් පැහැතිය.",
+    "altDesc": "බේබි පර්පල් ඇනතුරියම් විශේෂය. දම් පැහැ මලකි. කෙමිය තද දම් පැහැතිය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["තද දම්"],
+        "color-old": ["දම්"],
+        "length-min": 1,
+        "length-max": 1.1,
+        "length-old-min": 1,
+        "length-old-max": 1.25,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["දම්"],
+        "color-old": ["ලා  දම්"],
+        "length-min": 1.25,
+        "length-max": 1.5,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "ඕවලාකාර",
+        "vains": "",
+        "other": "small, balanced, turned upward"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 14,
+        "width-min": 22,
+        "width-max": 24,
+        "other": "dense tree, small, wide spread"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 6,
+        "length-max": 7,
+        "width-min": 2.75,
+        "width-max": 4,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "රූපය 1",
@@ -163,7 +208,7 @@
         "length-max": 5.5,
         "width-min": 4,
         "width-max": 5,
-        "shape": "heart",
+        "shape": "හදවත්",
         "vains": "",
         "other": "young ones has small කොළ shade, gets greener with age, one side higher than the other"
       },
@@ -175,7 +220,7 @@
         "other": "medium dense, medium hight"
       },
       "leaf": {
-        "shape": "oval",
+        "shape": "ඕවලාකාර",
         "length-min": 6,
         "length-max": 8.5,
         "width-min": 4,
@@ -205,7 +250,52 @@
   "Coca-Cola": {
     "id": "Coca-Cola",
     "title": "කොකා කෝලා",
-    "description": "",
+    "description": "රතු පැහැයෙන් පිරුණු ඇන්තූරියම් විශේෂයකි. මෙරූන් පැහැ දලපත්‍රයකින්ද, රතු පැහැ කලංකයකින්ද, තද රතු පැහැ නටුවකින්ද යුක්තය. මලේ පැහැය වෙනසක් නොවී දිගු කලක් පවතී. මල් සහ කොළ වල උඩු කොටස එක මත එක වැටුණු ස්වභාවයක් දක්නට ලැබේ.",
+    "altDesc": "කොකා කෝලා ඇනතුරියම් විශේෂය. මෙරූන් පැහැ මලකි. කෙමිය රතු පැහැතිය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["රතු"],
+        "color-old": ["රතු"],
+        "length-min": 2,
+        "length-max": 2.2,
+        "length-old-min": 2,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["මෙරූන්"],
+        "color-old": ["මෙරූන්"],
+        "length-min": 4,
+        "length-max": 4.5,
+        "width-min": 3,
+        "width-max": 3.5,
+        "shape": "රේඛීය",
+        "vains": "",
+        "other": "top overlap"
+      },
+      "tree": {
+        "hight-min": 24,
+        "hight-max": 26,
+        "width-min": 26,
+        "width-max": 30,
+        "other": "less dense, v-shaped, large"
+      },
+      "leaf": {
+        "shape": "ඕවලාකාර",
+        "length-min": 10,
+        "length-max": 12,
+        "width-min": 6,
+        "width-max": 7,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": { "color": "මෙරූන්"},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [],
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
@@ -223,7 +313,52 @@
   "Jolly": {
     "id": "Jolly",
     "title": "ජොලී",
-    "description": "",
+    "description": "මෙම ඇන්තූරියම් ප්‍රභේදයේ දලපත්‍රය රැලිගැසුණු ස්වභාවයකින් යුක්තය. රෝස පැහැතිය. ලා රෝස පැහැ කෙමියකින් යුතුය. රැලි ගැසුණු ස්වභාවය කොළවලද දක්නට ලැබේ. පරිණත වීමේදී දලපත්‍රයේ පැහැය සුදු මිශ්‍ර කොළ පැහැයකට හැරේ. මල් හා කොළ පිරුණු කුඩා ශාකයකි.",
+    "altDesc": "ජොලී ඇනතුරියම් විශේෂය. රෝස පැහැ මලකි. කෙමිය ලා රෝස පැහැතිය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["ලා රෝස"],
+        "color-old": ["කොළ"],
+        "length-min": 1,
+        "length-max": 1.2,
+        "length-old-min": 1.5,
+        "length-old-max": 2,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["රෝස"],
+        "color-old": ["ලා රෝස", "සුදු", "කොළ"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "ඕවලාකාර",
+        "vains": "",
+        "other": "goes upward, curly"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 15,
+        "width-min": 22,
+        "width-max": 24,
+        "other": "dense tree, small"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 5.5,
+        "length-max": 8,
+        "width-min": 3,
+        "width-max": 4,
+        "vains": "",
+        "other": "curved"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "රූපය 1",
@@ -270,7 +405,52 @@
   "Misuri-Orange": {
     "id": "Misuri-Orange",
     "title": "මිසුරි ඔරේන්ජ්",
-    "description": "",
+    "description": "තැඹිලි පැහැයෙන් යුතු අලංකාර ඇන්තූරියම් මලකි. හදවතක හැඩයකින් යුතු දලපත්‍රය කල් ගතවීමේදී ලා රෝස සහ කොළ මිශ්‍ර පැහැයකට හැරේ. තරමක් විශාල ශාකයකි.",
+    "altDesc": "මිසුරි ඔරේන්ජ් ඇනතුරියම් විශේෂය. තැඹිලි පැහැ මලකි. කෙමිය කහ පැහැතිය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["කහ"],
+        "color-old": ["කොළ"],
+        "length-min": 2,
+        "length-max": 2.25,
+        "length-old-min": 2.25,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["තැඹිලි"],
+        "color-old": ["ලා රෝස", "කොළ"],
+        "length-min": 4,
+        "length-max": 6,
+        "width-min": 3,
+        "width-max": 5,
+        "shape": "හාට්",
+        "vains": "",
+        "other": "balanced"
+      },
+      "tree": {
+        "hight-min": 36,
+        "hight-max": 42,
+        "width-min": 32,
+        "width-max": 36,
+        "other": "less dense tree, large"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 14,
+        "length-max": 16,
+        "width-min": 8,
+        "width-max": 8.5,
+        "vains": "",
+        "other": "light green color"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "රූපය 1",
@@ -478,7 +658,52 @@
   "Pink-Me": {
     "id": "Pink-Me",
     "title": "පින්ක් මී",
-    "description": "",
+    "description": "පින්ක් මී ශාකයේ ලා දම් පැහැති කුඩා මලක් හට ගනී. මෙරූන් පැහැති කලංකයක් පිහිටන මලේ නටුවද මෙරූන් පැහැතිය. පැරණි මල් සුදු පැහැයක් ගනී. දිගටි සිහින් පත්‍ර වලින් යුතු කුඩා ප්‍රමාණයේ ශාකයකි.",
+    "altDesc": "පින්ක් මී ඇනතුරියම් විශේෂය. ලා දම් පැහැති කුඩා  මලකි. කෙමිය මෙරූන් පැහැතිය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["මෙරූන්"],
+        "color-old": ["මෙරූන්"],
+        "length-min": 0.5,
+        "length-max": 0.5,
+        "length-old-min": 1,
+        "length-old-max": 1,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["ලා දම්"],
+        "color-old": ["සුදු"],
+        "length-min": 1,
+        "length-max": 1.75,
+        "width-min": 1,
+        "width-max": 1.2,
+        "shape": "ඕවලාකාර",
+        "vains": "",
+        "other": "small, balanced"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 14,
+        "width-min": 20,
+        "width-max": 22,
+        "other": "dense tree, small, wide spread"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 5,
+        "length-max": 6,
+        "width-min": 1.75,
+        "width-max": 2,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": { "color": "මෙරූන්" },
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "රූපය 1",
@@ -513,7 +738,52 @@
   "Pink-Ribbon": {
     "id": "Pink-Ribbon",
     "title": "පින්ක් රිබන්",
-    "description": "",
+    "description": "රිබන් පටියක හැඩය ගත් රෝස පැහැ දිගු මලකි. දලපත්‍රය දෙපසින් උඩට නැමී තිබේ. ලා රෝස පැහැති කෙමියක් සහිතය. දලපත්‍රය පරණ වන විට ලා රෝස හා සුදු පැහැයකට හැරේ.",
+    "altDesc": "පින්ක් රිබන් ඇනතුරියම් විශේෂය. රෝස පැහැයකින් යුතු දලපත්‍රයක් හා  ලා රෝස පැහැති කෙමියකින් යුතුය.",
+    "anatomy": {
+      "spadix": {
+        "color": ["ලා රෝස"],
+        "color-old": ["ලා රෝස, සුදු"],
+        "length-min": 1,
+        "length-max": 2,
+        "length-old-min": 2,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["රෝස"],
+        "color-old": ["ලා රෝස", "සුදු"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "රේඛීය ",
+        "vains": "",
+        "other": "Linear vains in spathe and leaves"
+      },
+      "tree": {
+        "hight-min": 24,
+        "hight-max": 30,
+        "width-min": 34,
+        "width-max": 36,
+        "other": "less dense tree v-shped"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 9,
+        "length-max": 11,
+        "width-min": 5,
+        "width-max": 7,
+        "vains": "linear",
+        "other": "dark green color"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "රූපය 1",

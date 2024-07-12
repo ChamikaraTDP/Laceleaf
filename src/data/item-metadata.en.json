@@ -82,7 +82,52 @@
   "Baby-Purple": {
     "id": "Baby-Purple",
     "title": "Baby Purple",
-    "description": "",
+    "description": "Baby Purple anthurium has a small, oval shaped beautiful flower. Its spathe is purple in color when young and small color fade happens when aging. Has a dark purple spadix.",
+    "altDesc": "Anthurium variant Baby Purple. Flower has a purple spathe and a dark purple spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["dark purple"],
+        "color-old": ["purple"],
+        "length-min": 1,
+        "length-max": 1.1,
+        "length-old-min": 1,
+        "length-old-max": 1.25,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["purple"],
+        "color-old": ["light purple"],
+        "length-min": 1.25,
+        "length-max": 1.5,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "oval",
+        "vains": "",
+        "other": "small, balanced, turned upward"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 14,
+        "width-min": 22,
+        "width-max": 24,
+        "other": "dense tree, small, wide spread"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 6,
+        "length-max": 7,
+        "width-min": 2.75,
+        "width-max": 4,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "image 1",
@@ -205,7 +250,52 @@
   "Coca-Cola": {
     "id": "Coca-Cola",
     "title": "Coca Cola",
-    "description": "",
+    "description": "Anthurium flower filled with shades of red. Spathe is maroon, spadix is red and the stalk is crimson. This flower holds its color as it is for a long time. Small overlap can be seen in the top part of the flowers and leaves. Relatively large plant.",
+    "altDesc": "Anthurium variant Coca Cola. Flower has a red spathe and a maroon spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["red"],
+        "color-old": ["red"],
+        "length-min": 2,
+        "length-max": 2.2,
+        "length-old-min": 2,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["maroon"],
+        "color-old": ["maroon"],
+        "length-min": 4,
+        "length-max": 4.5,
+        "width-min": 3,
+        "width-max": 3.5,
+        "shape": "linear",
+        "vains": "",
+        "other": "top overlap"
+      },
+      "tree": {
+        "hight-min": 24,
+        "hight-max": 26,
+        "width-min": 26,
+        "width-max": 30,
+        "other": "less dense, v-shaped, large"
+      },
+      "leaf": {
+        "shape": "oval",
+        "length-min": 10,
+        "length-max": 12,
+        "width-min": 6,
+        "width-max": 7,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": { "color": "maroon"},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [],
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
@@ -223,7 +313,52 @@
   "Jolly": {
     "id": "Jolly",
     "title": "Jolly",
-    "description": "",
+    "description": "Anthurium variant having a flower with curly, pink colored spathe and a mild pink spadix. Leaves also have a curved shape. Spathe changes its color to white and green over time. Relatively small plant filled with leaves and flowers.",
+    "altDesc": "Anthurium variant Jolly. Flower has a pink curly spathe and a mild pink spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["litht pink"],
+        "color-old": ["green"],
+        "length-min": 1,
+        "length-max": 1.2,
+        "length-old-min": 1.5,
+        "length-old-max": 2,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["pink"],
+        "color-old": ["light pink", "white", "green"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "heart",
+        "vains": "",
+        "other": "goes upward, curly"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 15,
+        "width-min": 22,
+        "width-max": 24,
+        "other": "dense tree, small"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 5.5,
+        "length-max": 8,
+        "width-min": 3,
+        "width-max": 4,
+        "vains": "",
+        "other": "curved"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "image 1",
@@ -270,7 +405,52 @@
   "Misuri-Orange": {
     "id": "Misuri-Orange",
     "title": "Misuri Orange",
-    "description": "",
+    "description": "This anthurium flower has a nice orange color spathe. Heart shaped spathe turns mild pink and green over time. Spadix is yellow when young and green when it's old. Relatively large plant.",
+    "altDesc": "Anthurium variant Misuri Orange. Flower has a orange color spathe and a yellow spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["yellow"],
+        "color-old": ["green"],
+        "length-min": 2,
+        "length-max": 2.25,
+        "length-old-min": 2.25,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["orange"],
+        "color-old": ["light pink", "green"],
+        "length-min": 4,
+        "length-max": 6,
+        "width-min": 3,
+        "width-max": 5,
+        "shape": "heart",
+        "vains": "",
+        "other": "balanced"
+      },
+      "tree": {
+        "hight-min": 36,
+        "hight-max": 42,
+        "width-min": 32,
+        "width-max": 36,
+        "other": "less dense tree, large"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 14,
+        "length-max": 16,
+        "width-min": 8,
+        "width-max": 8.5,
+        "vains": "",
+        "other": "light green color"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "image 1",
@@ -297,7 +477,7 @@
   "Panedola": {
     "id": "Panedola",
     "title": "Panedola",
-    "description": "This flower has a diamond shaped spathe with pink and green colors. Has a yellow spadix that turns green when gets old. Spathe shits it's color to white and green over time.",
+    "description": "This flower has a diamond shaped spathe with pink and green colors. Has a yellow spadix that turns green when gets old. Spathe shifts it's color to white and green over time.",
     "altDesc": "Anthurium variant Panedola. Flower has a pink, green spathe and a yellow spadix.",
     "images": [
       {
@@ -478,7 +658,52 @@
   "Pink-Me": {
     "id": "Pink-Me",
     "title": "Pink Me",
-    "description": "",
+    "description": "Oval shaped small flower with a pale purple spathe and a maroon color spadix. It has long skinny leaves that can be seen in abundance. Flower stalks are also maroon in color. Older flowers turn white.",
+    "altDesc": "Anthurium variant Pink Me. Flower has a pale purple spathe and a maroon spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["maroon"],
+        "color-old": ["maroon"],
+        "length-min": 0.5,
+        "length-max": 0.5,
+        "length-old-min": 1,
+        "length-old-max": 1,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["light purple"],
+        "color-old": ["white"],
+        "length-min": 1,
+        "length-max": 1.75,
+        "width-min": 1,
+        "width-max": 1.2,
+        "shape": "oval",
+        "vains": "",
+        "other": "small, balanced"
+      },
+      "tree": {
+        "hight-min": 12,
+        "hight-max": 14,
+        "width-min": 20,
+        "width-max": 22,
+        "other": "dense tree, small, wide spread"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 5,
+        "length-max": 6,
+        "width-min": 1.75,
+        "width-max": 2,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": { "color": "maroon" },
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "image 1",
@@ -513,7 +738,52 @@
   "Pink-Ribbon": {
     "id": "Pink-Ribbon",
     "title": "Pink Ribbon",
-    "description": "",
+    "description": "Pink Ribbon flower has a long pink color spathe that curved up from the sides making it look like a ribbon. Spathe shifts its color from pink to pale pink then into white when it gets old. Has a pale pink color spadix.",
+    "altDesc": "Anthurium variant Pink Ribbon. Flower has a pink ribbon like spathe and a pale pink spadix.",
+    "anatomy": {
+      "spadix": {
+        "color": ["light yellow"],
+        "color-old": ["light pink, white"],
+        "length-min": 1,
+        "length-max": 2,
+        "length-old-min": 2,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["pink"],
+        "color-old": ["light pink", "white"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2,
+        "width-max": 2.5,
+        "shape": "linear",
+        "vains": "",
+        "other": "Linear vains in spathe and leaves"
+      },
+      "tree": {
+        "hight-min": 24,
+        "hight-max": 30,
+        "width-min": 34,
+        "width-max": 36,
+        "other": "less dense tree v-shped"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 9,
+        "length-max": 11,
+        "width-min": 5,
+        "width-max": 7,
+        "vains": "linear",
+        "other": "dark green color"
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "images": [
       {
         "title": "image 1",
@@ -560,7 +830,7 @@
   "Red-Giant": {
     "id": "Red-Giant",
     "title": "Red Giant",
-    "description": "Relatively large plant with a great looking flower. This anthurium flower has a nice round shape and a glovy red color. When aging spathe become mild rose and then turn into yellow and green color. Top part of the flowers and leaves are attached together creating a unique look.",
+    "description": "Relatively large plant with a great looking flower. This anthurium flower has a nice round shape and a glovy red color. When aging spathe become mild rose and then turn into yellow and green. Top part of the flowers and leaves are attached together creating a unique look.",
     "altDesc": "Anthurium variant Red Giant. Flower has a large red spathe and a yellow spadix.",
     "images": [
       {
@@ -656,7 +926,7 @@
   "White-Beauty": {
     "id": "White-Beauty",
     "title": "White Beauty",
-    "description": "White Beauty is a little short, wide spread and flower-filled plant with triangular shaped leaves and flowers. Young budding flowers have a rose color then turn into white when mature. Flower spathe is a relatively small narrow and the spadix is relatively short and pale purple in color.",
+    "description": "White Beauty is a little short, wide spread and flower-filled plant with triangular shaped leaves and flowers. Young budding flowers have a rose color then turn into white when mature. Flower spathe is a relatively small and narrow and the spadix is short and pale purple in color.",
     "altDesc": "Anthurium variant White Beauty. Flower has a white spathe and a pale purple spadix.",
     "images": [
       {
