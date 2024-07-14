@@ -25,6 +25,17 @@ export default function ItemDetailCard({
   secondaryFont,
   tertiaryFont,
 }: ItemDetailCardProps) {
+
+  const getItemSize = (sizeSymbol: string) => {
+    switch(sizeSymbol) {
+      case "S": return dictionary.smallPlants;
+      case "M": return dictionary.mediumPlants;
+      case "L": return dictionary.motherPlants;
+      case "B": return dictionary.bushes;
+      default: return "unknown";
+    }
+  };
+
   return (
     <div className="w-full flex flex-col 2xl:flex-row">
       <div className="relative h-[60vh] xl:h-[80vh] 2xl:h-screen w-full 2xl:w-3/4">
@@ -219,28 +230,21 @@ export default function ItemDetailCard({
                 </tr>
               </thead>
               <tbody>
-                <tr className="text-nowrap border-b border-bg-primary">
-                  <td className="py-1 pl-2">{dictionary.smallPlants}</td>
-                  <td className="py-1 pl-2">250 /=</td>
-                </tr>
-                <tr className="text-nowrap border-b border-bg-primary">
-                  <td className="py-1 pl-2">{dictionary.mediumPlants}</td>
-                  <td className="py-1 pl-2">450 /=</td>
-                </tr>
-                <tr className="text-nowrap border-b border-bg-primary">
-                  <td className="py-1 pl-2">{dictionary.motherPlants}</td>
-                  <td className="py-1 pl-2">750 /=</td>
-                </tr>
-                <tr className="text-nowrap border-b border-bg-primary">
-                  <td className="py-1 pl-2">{dictionary.bushes}</td>
-                  <td className="py-1 pl-2">1250 /=</td>
-                </tr>
+                {item.prices.map((priceDesc, index) => (
+                  <tr
+                    key={index}
+                    className="text-nowrap border-b border-bg-primary"
+                  >
+                    <td className="py-1 pl-2">{getItemSize(priceDesc.size)}</td>
+                    <td className="py-1 pl-2">{priceDesc.price ? priceDesc.price + ' /=' : 'N/A'}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </div>
 
-        <div className="p-4 md:px-10">
+        <div className="p-4 md:px-10 2xl:px-4">
           <h4
             className={`${lang === "en" ? "text-lg" : "text-xl"} text-center`}
           >

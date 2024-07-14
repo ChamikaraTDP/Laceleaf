@@ -33,7 +33,8 @@
   "contactUsFormTitle": "Drop us a message",
   "faqTitle": "FAQs",
   "faqSubTitle": "Got a question?",
-  "telNo": "071 9939729",
+  "telNo": "+94711788728",
+  "telNoDisplay": "071 1788728",
   "email": "sujathasanthurium@gmail.com",
   "address": "No. 41, Remunagoda, Kalutara",
   "categories": ["Plants", "Flowers"],
@@ -41,5 +42,8 @@
   "mediumPlantsDesc": "4-6 inch height, with flowers",
   "motherPlantsDesc": "7-36 inch height, with flowers, Plant size vary based on variety",
   "bushesDesc": "More than one Plant, 7-36 inch height, with flowers, Plant size vary based on variety",
-  "currency": "Rs."
+  "currency": "Rs.",
+  "fbLink": "https://www.facebook.com/people/Sujathas-Anthurium/pfbid02yvNgRixmSo3N7fAkuk8h4BEDfHvBq3Xn1L1rjdaiRY1jvq6mCgtYUcjohGZJgSynl/",
+  "insLink": "https://www.instagram.com/sujathanthurium/",
+  "xLink": "https://x.com/sujathanthurium"
 }

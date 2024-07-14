@@ -3,6 +3,14 @@ export interface ItemImage {
   path: string;
 }
 
+
+export enum PlantSize {
+  S = "Small",
+  M = "Medium",
+  L = "Mother Plants",
+  B = "Bushes"
+}
+
 export interface ItemPrice {
   size: string;
   age: string;
