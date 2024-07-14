@@ -33,7 +33,8 @@
   "contactUsFormTitle": "ඔබේ පණිවිඩය එවන්න",
   "faqTitle": "නි.අ.ප්‍ර",
   "faqSubTitle": "නිතර අසන ප්‍රශ්න",
-  "telNo": "071 1788728",
+  "telNo": "+94711788728",
+  "telNoDisplay": "071 1788728",
   "email": "sujathasanthurium@gmail.com",
   "address": "නො. 41, රෙමුණගොඩ, කළුතර ",
   "categories": ["මල්", "මල් පැල"],
@@ -41,5 +42,8 @@
   "mediumPlantsDesc": "උස අඟල් 4-6 අතර, මල් සහිත",
   "motherPlantsDesc": "උස අඟල් 7-36 අතර, මල් සහිත, පැලයේ ප්‍රමාණය ප්‍රභේදය අනුව වෙනස් වේ",
   "bushesDesc": "පැල එකකට වඩා ඇත, උස අඟල් 7-36 අතර, මල් සහිත, පැලයේ ප්‍රමාණය ප්‍රභේදය අනුව වෙනස් වේ",
-  "currency": "රු."
+  "currency": "රු.",
+  "fbLink": "https://www.facebook.com/people/Sujathas-Anthurium/pfbid02yvNgRixmSo3N7fAkuk8h4BEDfHvBq3Xn1L1rjdaiRY1jvq6mCgtYUcjohGZJgSynl/",
+  "insLink": "https://www.instagram.com/sujathanthurium/",
+  "xLink": "https://x.com/sujathanthurium"
 }

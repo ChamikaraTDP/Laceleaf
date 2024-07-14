@@ -142,7 +142,11 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
           </div>
 
           <div className={`pt-5 pb-10 ${inter.className}`}>
-            <div className="flex justify-center xl:justify-start pb-2">
+            <div>
+              <a
+                className="flex justify-center xl:justify-start pb-2"
+                href={`tel:${homeData.telNo}`}
+              >
               <Image
                 src="/icons/phone.svg"
                 alt="phone icon"
@@ -150,7 +154,8 @@ export default function Sidebar({ lang, homeData, dictionary }: SidbarProps) {
                 height={24}
                 className="pr-2 hidden 2xl:block"
               />
-              <h2>{homeData.telNo}</h2>
+              <h2>{homeData.telNoDisplay}</h2>
+              </a>
             </div>
 
             <div>

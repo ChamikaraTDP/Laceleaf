@@ -236,7 +236,7 @@ export default function ItemDetailCard({
                     className="text-nowrap border-b border-bg-primary"
                   >
                     <td className="py-1 pl-2">{getItemSize(priceDesc.size)}</td>
-                    <td className="py-1 pl-2">{priceDesc.price} /=</td>
+                    <td className="py-1 pl-2">{priceDesc.price ? priceDesc.price + ' /=' : 'N/A'}</td>
                   </tr>
                 ))}
               </tbody>

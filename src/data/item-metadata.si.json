@@ -79,6 +79,29 @@
     "isInStock": true,
     "category": "මල් පැල"
   },
+  "Apple-Red": {
+    "id": "Apple-Red",
+    "title": "Apple Red",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Apple-Red/anthurium-Apple-Red-2.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Apple-Red/anthurium-Apple-Red-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": true,
+    "shopPrice": 200,
+    "isInStock": true,
+    "category": "Flowers"
+  },
   "Baby-Purple": {
     "id": "Baby-Purple",
     "title": "බේබි පර්පල්",
@@ -296,7 +319,12 @@
       "roots": {},
       "other": {}
     },
-    "images": [],
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG"
+      }
+    ],
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
       {
@@ -932,6 +960,29 @@
     "isInStock": true,
     "category": "මල් පැල"
   },
+  "Red-Champion": {
+    "id": "Red-Champion",
+    "title": "Red Champion",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": true,
+    "shopPrice": 200,
+    "isInStock": true,
+    "category": "plants"
+  },
   "Red-Giant": {
     "id": "Red-Giant",
     "title": "රෙඩ් ජයන්ට්",
@@ -1042,6 +1093,77 @@
     "shopPrice": 250,
     "isInStock": true,
     "category": "මල් පැල"
+  },
+  "Red-Large-I": {
+    "id": "Red-Large-I",
+    "title": "Red Large I",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-10.JPG"
+      },
+      {
+        "title": "image 2",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-11.JPG"
+      },
+      {
+        "title": "image 3",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-12.JPG"
+      },
+      {
+        "title": "image 4",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-13.JPG"
+      },
+      {
+        "title": "image 5",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-14.JPG"
+      },
+      {
+        "title": "image 6",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-2.JPG"
+      },
+      {
+        "title": "image 7",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-3.JPG"
+      },
+      {
+        "title": "image 8",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-4.JPG"
+      },
+      {
+        "title": "image 9",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-5.JPG"
+      },
+      {
+        "title": "image 10",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-6.JPG"
+      },
+      {
+        "title": "image 11",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-7.JPG"
+      },
+      {
+        "title": "image 12",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-8.JPG"
+      },
+      {
+        "title": "image 13",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-9.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Red-Large-I/anthurium-Red-Large-I-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": true,
+    "shopPrice": 200,
+    "isInStock": true,
+    "category": "plants"
   },
   "White-Beauty": {
     "id": "White-Beauty",

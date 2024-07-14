@@ -86,13 +86,36 @@
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 1000
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 400,
     "isInStock": true,
     "category": "plants"
+  },
+  "Apple-Red": {
+    "id": "Apple-Red",
+    "title": "Apple Red",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Apple-Red/anthurium-Apple-Red-2.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Apple-Red/anthurium-Apple-Red-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": false,
+    "shopPrice": 0,
+    "isInStock": true,
+    "category": "Flowers"
   },
   "Baby-Purple": {
     "id": "Baby-Purple",
@@ -171,21 +194,21 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 400
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 600
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
     "isInStock": true,
     "category": "plants"
   },
@@ -269,22 +292,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 500
       }
     ],
     "popular": true,
@@ -334,7 +357,9 @@
         "vains": "",
         "other": ""
       },
-      "stalk": { "color": "maroon" },
+      "stalk": {
+        "color": "maroon"
+      },
       "flower-bud": {},
       "petiole": {},
       "stem": {},
@@ -347,22 +372,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 500
       }
     ],
     "popular": true,
@@ -459,21 +484,21 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
     "isInStock": true,
     "category": "plants"
   },
@@ -541,26 +566,26 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,
-    "shopPrice": 200,
+    "shopPrice": 250,
     "isInStock": true,
     "category": "plants"
   },
@@ -668,7 +693,7 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
@@ -678,7 +703,7 @@
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
@@ -687,7 +712,7 @@
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 400,
     "isInStock": true,
     "category": "plants"
   },
@@ -752,26 +777,26 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 350
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 1000
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 350,
     "isInStock": true,
     "category": "plants"
   },
@@ -817,7 +842,9 @@
         "vains": "",
         "other": ""
       },
-      "stalk": { "color": "maroon" },
+      "stalk": {
+        "color": "maroon"
+      },
       "flower-bud": {},
       "petiole": {},
       "stem": {},
@@ -847,22 +874,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 600
       }
     ],
     "popular": true,
@@ -959,17 +986,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 400
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
@@ -977,9 +1004,33 @@
     "isInStock": true,
     "category": "plants"
   },
+  "Red-Champion": {
+    "id": "Red-Champion",
+    "title": "Red Champion",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": false,
+    "shopPrice": 0,
+    "isInStock": true,
+    "category": "plants"
+  },
   "Red-Giant": {
     "id": "Red-Giant",
     "title": "Red Giant",
+    "altNames": "Jambo Red",
     "description": "Relatively large plant with a great looking flower. This anthurium flower has a nice round shape and a glovy red color. When aging spathe become mild rose and then turn into yellow and green. Top part of the flowers and leaves are attached together creating a unique look.",
     "altDesc": "Anthurium variant Red Giant. Flower has a large red spathe and a yellow spadix.",
     "images": [
@@ -1070,21 +1121,92 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 0
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
+    "isInStock": true,
+    "category": "plants"
+  },
+  "Red-Large-I": {
+    "id": "Red-Large-I",
+    "title": "Red Large I",
+    "description": "",
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-10.JPG"
+      },
+      {
+        "title": "image 2",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-11.JPG"
+      },
+      {
+        "title": "image 3",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-12.JPG"
+      },
+      {
+        "title": "image 4",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-13.JPG"
+      },
+      {
+        "title": "image 5",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-14.JPG"
+      },
+      {
+        "title": "image 6",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-2.JPG"
+      },
+      {
+        "title": "image 7",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-3.JPG"
+      },
+      {
+        "title": "image 8",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-4.JPG"
+      },
+      {
+        "title": "image 9",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-5.JPG"
+      },
+      {
+        "title": "image 10",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-6.JPG"
+      },
+      {
+        "title": "image 11",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-7.JPG"
+      },
+      {
+        "title": "image 12",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-8.JPG"
+      },
+      {
+        "title": "image 13",
+        "path": "/images/shop/Red-Large-I/anthurium-Red-Large-I-9.JPG"
+      }
+    ],
+    "shopImagePath": "/images/shop/Red-Large-I/anthurium-Red-Large-I-1.JPG",
+    "prices": [
+      {
+        "size": "",
+        "age": "",
+        "price": 0
+      }
+    ],
+    "popular": false,
+    "shopPrice": 0,
     "isInStock": true,
     "category": "plants"
   },
@@ -1184,26 +1306,26 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 0
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 200,
     "isInStock": true,
     "category": "plants"
   }
