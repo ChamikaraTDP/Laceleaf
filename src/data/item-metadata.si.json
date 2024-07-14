@@ -300,9 +300,24 @@
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -392,9 +407,24 @@
     "shopImagePath": "/images/shop/Jolly/anthurium-Jolly-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -464,9 +494,24 @@
     "shopImagePath": "/images/shop/Misuri-Orange/anthurium-Misuri-Orange-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
         "age": "",
         "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -576,9 +621,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 1500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -645,9 +705,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 1500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -725,9 +800,24 @@
     "shopImagePath": "/images/shop/Pink-Me/anthurium-Pink-Me-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
         "age": "",
         "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -817,9 +907,24 @@
     "shopImagePath": "/images/shop/Pink-Ribbon/anthurium-Pink-Ribbon-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -913,9 +1018,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
@@ -1017,9 +1137,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,

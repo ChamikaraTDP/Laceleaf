@@ -69,13 +69,28 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
         "age": "",
         "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1000
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 400,
     "isInStock": true,
     "category": "plants"
   },
@@ -149,13 +164,28 @@
     "shopImagePath": "/images/shop/Baby-Purple/anthurium-Baby-Purple-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 300
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 600
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
     "isInStock": true,
     "category": "plants"
   },
@@ -237,7 +267,22 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 500
       }
@@ -289,7 +334,7 @@
         "vains": "",
         "other": ""
       },
-      "stalk": { "color": "maroon"},
+      "stalk": { "color": "maroon" },
       "flower-bud": {},
       "petiole": {},
       "stem": {},
@@ -300,7 +345,22 @@
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 500
       }
@@ -392,13 +452,28 @@
     "shopImagePath": "/images/shop/Jolly/anthurium-Jolly-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 300
+      },
+      {
+        "size": "L",
         "age": "",
         "price": 500
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 800
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
     "isInStock": true,
     "category": "plants"
   },
@@ -464,13 +539,28 @@
     "shopImagePath": "/images/shop/Misuri-Orange/anthurium-Misuri-Orange-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 400
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 700
       }
     ],
     "popular": true,
-    "shopPrice": 200,
+    "shopPrice": 250,
     "isInStock": true,
     "category": "plants"
   },
@@ -576,13 +666,28 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 1500
+        "price": 250
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 700
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1250
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 400,
     "isInStock": true,
     "category": "plants"
   },
@@ -645,13 +750,28 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 1500
+        "price": 250
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 700
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1000
       }
     ],
     "popular": true,
-    "shopPrice": 300,
+    "shopPrice": 350,
     "isInStock": true,
     "category": "plants"
   },
@@ -725,9 +845,24 @@
     "shopImagePath": "/images/shop/Pink-Me/anthurium-Pink-Me-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 400
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 600
       }
     ],
     "popular": true,
@@ -817,9 +952,24 @@
     "shopImagePath": "/images/shop/Pink-Ribbon/anthurium-Pink-Ribbon-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 800
       }
     ],
     "popular": true,
@@ -830,6 +980,7 @@
   "Red-Giant": {
     "id": "Red-Giant",
     "title": "Red Giant",
+    "altNames": "Jambo Red",
     "description": "Relatively large plant with a great looking flower. This anthurium flower has a nice round shape and a glovy red color. When aging spathe become mild rose and then turn into yellow and green. Top part of the flowers and leaves are attached together creating a unique look.",
     "altDesc": "Anthurium variant Red Giant. Flower has a large red spathe and a yellow spadix.",
     "images": [
@@ -913,13 +1064,28 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 300
+      },
+      {
+        "size": "L",
         "age": "",
         "price": 500
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": "N/A"
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 300,
     "isInStock": true,
     "category": "plants"
   },
@@ -1017,13 +1183,28 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 500
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": "N/A"
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 700
       }
     ],
     "popular": true,
-    "shopPrice": 250,
+    "shopPrice": 200,
     "isInStock": true,
     "category": "plants"
   }

@@ -2,8 +2,8 @@
 
 set -e;
 
-src="./anthurium-selected";
-dest="./anthurium-marked";
+src="./new";
+dest="./marked";
 
 if test -d $dest; then
 	echo "$dest folder exists"
