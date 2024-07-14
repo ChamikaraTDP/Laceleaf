@@ -25,14 +25,18 @@ export default function ItemDetailCard({
   secondaryFont,
   tertiaryFont,
 }: ItemDetailCardProps) {
-
   const getItemSize = (sizeSymbol: string) => {
-    switch(sizeSymbol) {
-      case "S": return dictionary.smallPlants;
-      case "M": return dictionary.mediumPlants;
-      case "L": return dictionary.motherPlants;
-      case "B": return dictionary.bushes;
-      default: return "unknown";
+    switch (sizeSymbol) {
+      case "S":
+        return dictionary.smallPlants;
+      case "M":
+        return dictionary.mediumPlants;
+      case "L":
+        return dictionary.motherPlants;
+      case "B":
+        return dictionary.bushes;
+      default:
+        return "unknown";
     }
   };
 
@@ -104,13 +108,51 @@ export default function ItemDetailCard({
           </div>
 
           <p
-            className={`${secondaryFont.className} text-base/5 p-4 text-slate-700 md:px-14 lg:px-0 lg:w-4/5 2xl:w-full 2xl:p-4 mx-auto`}
+            className={`hidden md:block ${secondaryFont.className} text-base/5 p-4 text-slate-700 md:px-14 lg:px-0 lg:w-4/5 2xl:w-full 2xl:p-4 mx-auto`}
           >
             {item.description}
           </p>
         </div>
 
         <div className="md:flex md:px-10 2xl:flex-col 2xl:px-0">
+          <div className="p-4 w-full">
+            <h4
+              className={`${lang === "en" ? "text-lg" : "text-xl"} text-center`}
+            >
+              {dictionary.prices}
+            </h4>
+
+            <table
+              className={`w-full ${lang === "en" ? "text-sm" : "text-base"}`}
+            >
+              <thead>
+                <tr className="bg-bg-default">
+                  <th className="text-left pl-2">{dictionary.size}</th>
+                  <th className="text-left pl-2">{dictionary.price}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {item.prices.map((priceDesc, index) => (
+                  <tr
+                    key={index}
+                    className="text-nowrap border-b border-bg-primary"
+                  >
+                    <td className="py-1 pl-2">{getItemSize(priceDesc.size)}</td>
+                    <td className="py-1 pl-2">
+                      {priceDesc.price ? priceDesc.price + " /=" : "N/A"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p
+            className={`md:hidden ${secondaryFont.className} text-base/5 p-4 text-slate-700 md:px-14 lg:px-0 lg:w-4/5 2xl:w-full 2xl:p-4 mx-auto`}
+          >
+            {item.description}
+          </p>
+
           <div className="p-4 w-full">
             <h4
               className={`${lang === "en" ? "text-lg" : "text-xl"} text-center`}
@@ -209,36 +251,6 @@ export default function ItemDetailCard({
                     {lang === "en" && dictionary.inch}
                   </td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="p-4 w-full">
-            <h4
-              className={`${lang === "en" ? "text-lg" : "text-xl"} text-center`}
-            >
-              {dictionary.prices}
-            </h4>
-
-            <table
-              className={`w-full ${lang === "en" ? "text-sm" : "text-base"}`}
-            >
-              <thead>
-                <tr className="bg-bg-default">
-                  <th className="text-left pl-2">{dictionary.size}</th>
-                  <th className="text-left pl-2">{dictionary.price}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {item.prices.map((priceDesc, index) => (
-                  <tr
-                    key={index}
-                    className="text-nowrap border-b border-bg-primary"
-                  >
-                    <td className="py-1 pl-2">{getItemSize(priceDesc.size)}</td>
-                    <td className="py-1 pl-2">{priceDesc.price ? priceDesc.price + ' /=' : 'N/A'}</td>
-                  </tr>
-                ))}
               </tbody>
             </table>
           </div>

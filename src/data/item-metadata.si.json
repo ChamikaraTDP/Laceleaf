@@ -69,9 +69,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
         "age": "",
         "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1000
       }
     ],
     "popular": true,
@@ -92,9 +107,24 @@
     "shopImagePath": "/images/shop/Apple-Red/anthurium-Apple-Red-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
     "popular": true,
@@ -172,7 +202,22 @@
     "shopImagePath": "/images/shop/Baby-Purple/anthurium-Baby-Purple-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 300
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 600
       }
@@ -260,7 +305,22 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 500
       }
@@ -330,22 +390,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 500
       }
     ],
     "popular": true,
@@ -442,17 +502,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
@@ -524,22 +584,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,
@@ -651,7 +711,7 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
@@ -661,7 +721,7 @@
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
@@ -735,22 +795,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 350
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 1000
       }
     ],
     "popular": true,
@@ -830,22 +890,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 600
       }
     ],
     "popular": true,
@@ -942,17 +1002,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 400
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
@@ -973,9 +1033,24 @@
     "shopImagePath": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 250
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 500
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 700
       }
     ],
     "popular": true,
@@ -1076,17 +1151,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 0
       }
     ],
     "popular": true,
@@ -1155,9 +1230,24 @@
     "shopImagePath": "/images/shop/Red-Large-I/anthurium-Red-Large-I-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
     "popular": true,
@@ -1261,22 +1351,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 0
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,
