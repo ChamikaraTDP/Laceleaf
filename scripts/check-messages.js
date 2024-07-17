@@ -2,8 +2,7 @@ const secrets = require('../client-data/secrets.json');
 const { open, appendFile } = require("node:fs/promises");
 const nodemailer = require("nodemailer");
 
-process.chdir('/home/chamikara/Projects/Laceleaf');
-
+process.chdir(secrets.PWD);
 
 async function readMsg() {
   const metadataFile = await open("./client-data/process-meta.json");

@@ -1,10 +1,10 @@
 const { appendFile } = require("node:fs/promises");
+const secrets = require('../client-data/secrets.json');
 
-
-process.chdir('/home/chamikara/Projects/Laceleaf');
+process.chdir(secrets.PWD);
 
 async function updateProccessData(metadata) {
-  await appendFile("./client-data/process-meta.json", JSON.stringify(metadata));
+  await appendFile("./client-data/process.log", JSON.stringify(metadata));
   // await metadataFile.writeFile(JSON.stringify(metadata));
   // metadataFile.close();
 }
