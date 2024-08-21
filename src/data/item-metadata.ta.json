@@ -107,15 +107,30 @@
     "shopImagePath": "/images/shop/Apple-Red/anthurium-Apple-Red-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
-    "popular": false,
-    "shopPrice": 0,
+    "popular": true,
+    "shopPrice": 200,
     "isInStock": true,
-    "category": "Flowers"
+    "category": "plants"
   },
   "Baby-Purple": {
     "id": "Baby-Purple",
@@ -366,7 +381,12 @@
       "roots": {},
       "other": {}
     },
-    "images": [],
+    "images": [
+      {
+        "title": "image 1",
+        "path": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG"
+      }
+    ],
     "shopImagePath": "/images/shop/Coca-Cola/anthurium-Coca-Cola-1.JPG",
     "prices": [
       {
@@ -1007,7 +1027,8 @@
   "Red-Champion": {
     "id": "Red-Champion",
     "title": "Red Champion",
-    "description": "",
+    "description": "Relatively small bush loaded with leaves and flowers. This is a nice form of anthurium with a eye-catching red spathe and a yellow spadix. Only a slight color fade happens when aging.",
+    "altDesc": "Anthurium variant Red Champion. Flower has a red spathe and a yellow spadix.",
     "images": [
       {
         "title": "image 1",
@@ -1015,15 +1036,74 @@
       }
     ],
     "shopImagePath": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG",
+    "anatomy": {
+      "spadix": {
+        "color": ["yellow"],
+        "length-min": 1,
+        "length-max": 1.5,
+        "color-old": ["white", "yellow"],
+        "length-old-min": 2,
+        "length-old-max": 2.5,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["dark red"],
+        "color-old": ["red"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2.25,
+        "width-max": 3,
+        "shape": "oval",
+        "vains": "visible",
+        "other": "clearly visible vains"
+      },
+      "tree": {
+        "hight-min": 15,
+        "hight-max": 16,
+        "width-min": 18,
+        "width-max": 21,
+        "other": "short, dense, filled"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 8,
+        "length-max": 9,
+        "width-min": 3,
+        "width-max": 3.5,
+        "vains": "visible",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 250
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 500
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 700
       }
     ],
-    "popular": false,
-    "shopPrice": 0,
+    "popular": true,
+    "shopPrice": 200,
     "isInStock": true,
     "category": "plants"
   },
@@ -1142,7 +1222,8 @@
   "Red-Large-I": {
     "id": "Red-Large-I",
     "title": "Red Large I",
-    "description": "",
+    "description": "In a good shady place with good weather conditions this anthurium plants can grow upto 3.5 feet tall and cover up 15 sq.ft. Also have a big red flower with a yellow spadix. Some green color gets added to the spathe with age.",
+    "altDesc": "Anthurium variant Red Large I. Flower has a large red spathe and a yellow spadix.",
     "images": [
       {
         "title": "image 1",
@@ -1198,15 +1279,74 @@
       }
     ],
     "shopImagePath": "/images/shop/Red-Large-I/anthurium-Red-Large-I-1.JPG",
+    "anatomy": {
+      "spadix": {
+        "color": ["yellow"],
+        "length-min": 2,
+        "length-max": 2.25,
+        "color-old": ["white", "green"],
+        "length-old-min": 2.75,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["dark red"],
+        "color-old": ["red", "green"],
+        "length-min": 6.5,
+        "length-max": 7,
+        "width-min": 5,
+        "width-max": 5.5,
+        "shape": "oval",
+        "vains": "visible",
+        "other": "dark red, mat color, unbalaced"
+      },
+      "tree": {
+        "hight-min": 34,
+        "hight-max": 36,
+        "width-min": 34,
+        "width-max": 36,
+        "other": "large, wide spread, dense, filled"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 12,
+        "length-max": 14,
+        "width-min": 7,
+        "width-max": 8.5,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
-    "popular": false,
-    "shopPrice": 0,
+    "popular": true,
+    "shopPrice": 200,
     "isInStock": true,
     "category": "plants"
   },
