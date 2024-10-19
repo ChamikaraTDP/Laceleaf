@@ -69,9 +69,24 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "L",
         "age": "",
         "price": 800
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 1000
       }
     ],
     "popular": true,
@@ -92,9 +107,24 @@
     "shopImagePath": "/images/shop/Apple-Red/anthurium-Apple-Red-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
     "popular": true,
@@ -172,7 +202,22 @@
     "shopImagePath": "/images/shop/Baby-Purple/anthurium-Baby-Purple-1.JPG",
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 300
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 400
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 600
       }
@@ -260,7 +305,22 @@
     },
     "prices": [
       {
-        "size": "",
+        "size": "S",
+        "age": "",
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 200
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
         "age": "",
         "price": 500
       }
@@ -330,22 +390,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 500
       }
     ],
     "popular": true,
@@ -442,17 +502,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
@@ -524,22 +584,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,
@@ -651,7 +711,7 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
@@ -661,7 +721,7 @@
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
@@ -735,22 +795,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 250
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 350
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 700
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 1000
       }
     ],
     "popular": true,
@@ -830,22 +890,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 350
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 600
       }
     ],
     "popular": true,
@@ -942,17 +1002,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 250
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 400
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 800
       }
     ],
     "popular": true,
@@ -962,8 +1022,9 @@
   },
   "Red-Champion": {
     "id": "Red-Champion",
-    "title": "Red Champion",
-    "description": "",
+    "title": "රෙඩ් චැම්පියන්",
+    "description": "තරමක් කුඩා, මල් සහ කොළ වලින් පිරුණු ශාකයකි. මනස්කාන්ත රතු පැහැති මලකින් යුක්තය. මලේ කෙමිය කහ පැහැතිය. කල් ගතවීමේදී පැහැය තරමක් අඩුවේ.",
+    "altDesc":"රෙඩ් චැම්පියන් ඇනතුරියම් විශේෂය. රතු පැහැ මලකි. කෙමිය කහ පැහැතිය.",
     "images": [
       {
         "title": "image 1",
@@ -971,11 +1032,70 @@
       }
     ],
     "shopImagePath": "/images/shop/Red-Champion/anthurium-Red-Champion-1.JPG",
+    "anatomy": {
+      "spadix": {
+        "color": ["yellow"],
+        "length-min": 1,
+        "length-max": 1.5,
+        "color-old": ["white", "yellow"],
+        "length-old-min": 2,
+        "length-old-max": 2.5,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["dark red"],
+        "color-old": ["red"],
+        "length-min": 3,
+        "length-max": 4,
+        "width-min": 2.25,
+        "width-max": 3,
+        "shape": "oval",
+        "vains": "visible",
+        "other": "clearly visible vains"
+      },
+      "tree": {
+        "hight-min": 15,
+        "hight-max": 16,
+        "width-min": 18,
+        "width-max": 21,
+        "other": "short, dense, filled"
+      },
+      "leaf": {
+        "shape": "linear",
+        "length-min": 8,
+        "length-max": 9,
+        "width-min": 3,
+        "width-max": 3.5,
+        "vains": "visible",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 250
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 500
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 700
       }
     ],
     "popular": true,
@@ -1076,17 +1196,17 @@
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 300
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 500
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 0
       }
     ],
     "popular": true,
@@ -1096,8 +1216,9 @@
   },
   "Red-Large-I": {
     "id": "Red-Large-I",
-    "title": "Red Large I",
-    "description": "",
+    "title": "රෙඩ් ලාර්ජ්  I",
+    "description": "මද ආලෝකයක් හා හිතකර පරිසර තත්ව යටතේ පවත්නා ශාකයක් අඩි 3.5 ක් පමන උසට  වැඩෙන අතර වර්ග අඩි 15 ක පමණ ප්‍රදේශයක් පුරා පැතිරේ. විශාල රතු පැහැ මලක් හට ගනී. කල් යාමේදී මල තරමක් කොළ පැහැයකට හැරේ.",
+    "altDesc":"රෙඩ් ලාර්ජ්  I ඇනතුරියම් විශේෂය. විශාල රතු පැහැ මලකි. කෙමිය කහ පැහැතිය.",
     "images": [
       {
         "title": "image 1",
@@ -1153,11 +1274,70 @@
       }
     ],
     "shopImagePath": "/images/shop/Red-Large-I/anthurium-Red-Large-I-1.JPG",
+    "anatomy": {
+      "spadix": {
+        "color": ["yellow"],
+        "length-min": 2,
+        "length-max": 2.25,
+        "color-old": ["white", "green"],
+        "length-old-min": 2.75,
+        "length-old-max": 3,
+        "other": ""
+      },
+      "spathe": {
+        "color": ["dark red"],
+        "color-old": ["red", "green"],
+        "length-min": 6.5,
+        "length-max": 7,
+        "width-min": 5,
+        "width-max": 5.5,
+        "shape": "oval",
+        "vains": "visible",
+        "other": "dark red, mat color, unbalaced"
+      },
+      "tree": {
+        "hight-min": 34,
+        "hight-max": 36,
+        "width-min": 34,
+        "width-max": 36,
+        "other": "large, wide spread, dense, filled"
+      },
+      "leaf": {
+        "shape": "triangular",
+        "length-min": 12,
+        "length-max": 14,
+        "width-min": 7,
+        "width-max": 8.5,
+        "vains": "",
+        "other": ""
+      },
+      "stalk": {},
+      "flower-bud": {},
+      "petiole": {},
+      "stem": {},
+      "roots": {},
+      "other": {}
+    },
     "prices": [
       {
-        "size": "",
+        "size": "S",
         "age": "",
-        "price": 0
+        "price": 150
+      },
+      {
+        "size": "M",
+        "age": "",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "age": "",
+        "price": 350
+      },
+      {
+        "size": "B",
+        "age": "",
+        "price": 500
       }
     ],
     "popular": true,
@@ -1261,22 +1441,22 @@
       {
         "size": "S",
         "age": "",
-        "price": 200
+        "price": 150
       },
       {
         "size": "M",
         "age": "",
-        "price": 400
+        "price": 200
       },
       {
         "size": "L",
         "age": "",
-        "price": 800
+        "price": 0
       },
       {
         "size": "B",
         "age": "",
-        "price": 1250
+        "price": 700
       }
     ],
     "popular": true,

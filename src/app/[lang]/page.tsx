@@ -5,10 +5,14 @@ import TitleCard from "@components/TitleCard";
 import Link from "next/link";
 import ItemCard from "@components/ItemCard";
 import ExpandableDesc from "@components/ExpandableDesc";
-import { getDictionary, getFaq, getHomeData, getItemData } from "@/dictionaries";
+import {
+  getDictionary,
+  getFaq,
+  getHomeData,
+  getItemData,
+} from "@/dictionaries";
 import { Locale } from "@/types/common";
 import { getSecondaryFont, getTertiaryFont } from "@app/fonts";
-
 
 export default async function Home({ params }: { params: { lang: Locale } }) {
   const homeData = await getHomeData(params.lang);
@@ -52,7 +56,12 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
 
         <div className="flex flex-wrap mt-10 sm:mt-20 gap-x-5 sm:gap-x-8 gap-y-10 sm:gap-y-20 justify-center ">
           {itemsArr.map((itm) => (
-            <ItemCard homeData={homeData} lang={params.lang} key={itm.id} item={itm} />
+            <ItemCard
+              homeData={homeData}
+              lang={params.lang}
+              key={itm.id}
+              item={itm}
+            />
           ))}
         </div>
       </div>
@@ -80,7 +89,9 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
           lang={params.lang}
         />
 
-        <div className={`${secondaryFont.className} w-[90%] lg:w-3/5 m-auto pt-10`}>
+        <div
+          className={`${secondaryFont.className} w-[90%] lg:w-3/5 m-auto pt-10`}
+        >
           {questions.map((qt) => (
             <ExpandableDesc
               key={qt.title}
@@ -92,7 +103,12 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
       </div>
 
       {/* contact us */}
-      <ContactUs homeData={homeData} dictionary={dictionary} lang={params.lang} tertiaryFont={tertiaryFont} />
+      <ContactUs
+        homeData={homeData}
+        dictionary={dictionary}
+        lang={params.lang}
+        tertiaryFont={tertiaryFont}
+      />
     </main>
   );
 }
