@@ -70,6 +70,59 @@ function CustomCarousel({
     }, 0);
   };
 
+  const ongoingTouches: any = [];
+
+  const handleTouchStart = (evt: any) => {
+    evt.preventDefault();
+
+    const touches = evt.changedTouches;
+    ongoingTouches.push(copyTouchEvt(touches[0]));
+  };
+
+  const handleTouchEnd = (evt: any) => {
+    evt.preventDefault();
+
+    const touch = evt.changedTouches[0];
+    const prevTouch = ongoingTouches[0];
+
+    if (!prevTouch) return;
+
+    if (evt.touches.length > 1) {
+    //   console.log("multi-touch not a swipe");
+      return;
+    }
+
+    const dx = prevTouch.pageX - touch.pageX;
+    const dy = prevTouch.pageY - touch.pageY;
+
+    if (Math.abs(dx) > Math.abs(dy)) {
+      // horizontal
+      if (Math.abs(dx) > 20) {
+        // more than x pixel difference to activate
+        if (dx > 0) {
+          // left
+          goToNext();
+        } else {
+          // right
+          slidePrev();
+        }
+      }
+    }
+
+    ongoingTouches.splice(0, 1);
+  };
+
+  const handleTouchCancel = (evt: any) => {
+    evt.preventDefault();
+    console.log("touchcancel.");
+
+    ongoingTouches.splice(0, 1);
+  };
+
+  const copyTouchEvt = ({ identifier, pageX, pageY }: any) => {
+    return { identifier, pageX, pageY };
+  };
+
   return (
     <div className="slider_root">
       <div
@@ -78,6 +131,9 @@ function CustomCarousel({
             ? "container__slider slider-with-thumbnail"
             : "container__slider"
         }
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchCancel}
       >
         {children.map((item: any, index: number) => {
           return (
@@ -149,24 +205,24 @@ function CustomCarousel({
       {showThumbnail && thumbnails && (
         <div className="container_thumbnail">
           <div className="px-4 w-full text-nowrap text-center overflow-auto ">
-              {thumbnails.map((item: any, index: number) => {
-                return (
-                  <div
-                    className={`inline-block w-[100px] h-[100px] xl:w-[128px] xl:h-[128px] relative overflow-hidden border-4 cursor-pointer mr-4 ${
-                      activeIndex === index
-                        ? "border-focus-primary"
-                        : "border-transparent"
-                    }`}
-                    key={index}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setActiveIndex(index);
-                    }}
-                  >
-                    {item}
-                  </div>
-                );
-              })}
+            {thumbnails.map((item: any, index: number) => {
+              return (
+                <div
+                  className={`inline-block w-[100px] h-[100px] xl:w-[128px] xl:h-[128px] relative overflow-hidden border-4 cursor-pointer mr-4 ${
+                    activeIndex === index
+                      ? "border-focus-primary"
+                      : "border-transparent"
+                  }`}
+                  key={index}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setActiveIndex(index);
+                  }}
+                >
+                  {item}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
